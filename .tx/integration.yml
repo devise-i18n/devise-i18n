@@ -1,0 +1,22 @@
+filters:
+  - filter_type: file
+    file_format: YML
+    source_file: rails/locales/en.yml
+    source_language: en
+    translation_files_expression: 'rails/locales/<lang>.yml'
+
+settings:
+  language_mapping:
+    de_CH: de-CH
+    en_GB: en-GB
+    es_CL: es-CL
+    es_CO: es-CO
+    es_MX: es-MX
+    fr_CA: fr-CA
+    lo_LA: lo-LA
+    nn_NO: nn-NO
+    pt_BR: pt-BR
+    sr_RS: sr-RS
+    zh_CN: zh-CN
+    zh_HK: zh-HK
+    zh_TW: zh-TW

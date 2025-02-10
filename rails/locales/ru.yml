@@ -47,7 +47,7 @@ ru:
       not_found_in_database: "%{authentication_keys} или пароль неверны."
       timeout: "Ваш сеанс закончился. Пожалуйста, попытайтесь войти."
       unauthenticated: Вам необходимо войти в учётную запись или зарегистрироваться.
-      unconfirmed: Вы должны подтвердить вашу учетную запись.
+      unconfirmed: Вы должны подтвердить вашу учётную запись.
     mailer:
       confirmation_instructions:
         action: Активировать

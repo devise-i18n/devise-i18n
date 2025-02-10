@@ -60,7 +60,7 @@ ru:
         message_unconfirmed: "Мы пытаемся связаться с вами, чтобы сообщить, что ваш адрес электронной почты будет изменён на %{email}."
         subject: Эл. адрес изменён
       password_change:
-        greeting: "Приветствуем, %{recipient}!"
+        greeting: "Здравствуйте, %{recipient}!"
         message: "Мы пытаемся связаться с вами, что бы сообщить, что ваш пароль был изменен."
         subject: Пароль изменен
       reset_password_instructions:

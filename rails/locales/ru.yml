@@ -62,7 +62,7 @@ ru:
       password_change:
         greeting: "Здравствуйте, %{recipient}!"
         message: "Мы пытаемся связаться с вами, чтобы сообщить, что ваш пароль был изменён."
-        subject: Пароль изменен
+        subject: Пароль изменён
       reset_password_instructions:
         action: Изменить пароль
         greeting: "Здравствуйте, %{recipient}!"

@@ -22,7 +22,7 @@ ru:
         reset_password_sent_at: Дата отправки сброса пароля
         reset_password_token: Токен сброса пароля
         sign_in_count: Количество входов
-        unconfirmed_email: Неподтвержденный email
+        unconfirmed_email: Неподтверждённая эл. почта
         unlock_token: Токен разблокировки
         updated_at: Дата обновления
     models:

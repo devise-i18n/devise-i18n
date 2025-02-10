@@ -129,10 +129,10 @@ ru:
         sign_in_with_provider: "Войти с помощью: %{provider}"
         sign_up: Регистрация
       minimum_password_length:
-        one: "(минимум %{count} знак)"
+        one: "(минимум %{count} символ)"
         few: "(минимум символов: %{count})"
-        many: "(минимум %{count} знаков)"
-        other: "(минимум %{count} знаков)"
+        many: "(минимум символов: %{count})"
+        other: "(минимум символов: %{count})"
     unlocks:
       new:
         resend_unlock_instructions: Выслать подтверждение заново

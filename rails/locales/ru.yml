@@ -41,7 +41,7 @@ ru:
     failure:
       already_authenticated: Вы уже вошли в учётную запись.
       inactive: Ваша учётная запись ещё не активирована.
-      invalid: "Неправильный %{authentication_keys} или пароль."
+      invalid: "%{authentication_keys} или пароль неверны."
       last_attempt: У вас осталась последняя попытка ввода пароля до блокировки учётной записи.
       locked: Ваша учётная запись заблокирована.
       not_found_in_database: "Неправильный %{authentication_keys} или пароль."

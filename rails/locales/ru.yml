@@ -44,7 +44,7 @@ ru:
       invalid: "%{authentication_keys} или пароль неверны."
       last_attempt: У вас осталась последняя попытка ввода пароля до блокировки учётной записи.
       locked: Ваша учётная запись заблокирована.
-      not_found_in_database: "Неправильный %{authentication_keys} или пароль."
+      not_found_in_database: "%{authentication_keys} или пароль неверны."
       timeout: "Ваш сеанс закончился. Пожалуйста, войдите в систему снова."
       unauthenticated: Вам необходимо войти в систему или зарегистрироваться.
       unconfirmed: Вы должны подтвердить вашу учетную запись.

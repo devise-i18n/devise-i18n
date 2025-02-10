@@ -52,7 +52,7 @@ ru:
       confirmation_instructions:
         action: Активировать
         greeting: "Здравствуйте, %{recipient}!"
-        instruction: 'Вы можете активировать свою учетную запись, нажав ссылку снизу:'
+        instruction: 'Вы можете активировать свою учётную запись, нажав ссылку снизу:'
         subject: Инструкции по подтверждению учетной записи
       email_changed:
         greeting: "Здравствуйте, %{recipient}!"

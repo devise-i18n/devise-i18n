@@ -97,7 +97,7 @@ ru:
       destroyed: До свидания! Ваша учётная запись удалена. Надеемся снова увидеть вас.
       edit:
         are_you_sure: "Вы уверены?"
-        cancel_my_account: Удалить учетную запись
+        cancel_my_account: Удалить учётную запись
         currently_waiting_confirmation_for_email: 'Ожидается подтверждение адреса E-mail: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: "оставьте поле пустым, если не хотите его менять"
         title: "Редактировать %{resource}"

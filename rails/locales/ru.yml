@@ -57,7 +57,7 @@ ru:
       email_changed:
         greeting: "Здравствуйте, %{recipient}!"
         message: "Мы пытаемся связаться с вами, чтобы сообщить, что ваш адрес электронной почты был изменён на %{email}."
-        message_unconfirmed: "Мы пытаемся связаться с вами, чтобы сообщить, что ваш email будет изменен на %{email}."
+        message_unconfirmed: "Мы пытаемся связаться с вами, чтобы сообщить, что ваш адрес электронной почты будет изменён на %{email}."
         subject: Email изменен
       password_change:
         greeting: "Приветствуем, %{recipient}!"

@@ -78,7 +78,7 @@ ru:
         subject: Инструкции по снятию блокировки учётной записи
     omniauth_callbacks:
       failure: "Вы не можете войти под учётной записью из %{kind}, т.к. «%{reason}»."
-      success: "Вход в систему выполнен с учетной записью из %{kind}."
+      success: "Вход выполнен под учётной записью из %{kind}."
     passwords:
       edit:
         change_my_password: Изменить мой пароль

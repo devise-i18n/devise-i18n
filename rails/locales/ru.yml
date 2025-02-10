@@ -130,7 +130,7 @@ ru:
         sign_up: Регистрация
       minimum_password_length:
         one: "(минимум %{count} знак)"
-        few: "(минимум %{count} знака)"
+        few: "(минимум символов: %{count})"
         many: "(минимум %{count} знаков)"
         other: "(минимум %{count} знаков)"
     unlocks:

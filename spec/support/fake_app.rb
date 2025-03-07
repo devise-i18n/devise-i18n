@@ -16,6 +16,7 @@ module DeviseI18n
         app.config.middleware.use OmniAuth::Builder do
           provider :twitter, "API_KEY", "API_SECRET"
         end
+        app.config.active_support.to_time_preserves_timezone = :zone
 
         yield(app.config) if block_given?
 

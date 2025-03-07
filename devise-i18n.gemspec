@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "devise-i18n".freeze
-  s.version = '1.12.1'
+  s.version = '1.13.0'
 
   s.required_ruby_version = ">= 2.7.0"
   s.require_paths = ["lib".freeze]

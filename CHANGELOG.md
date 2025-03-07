@@ -1,3 +1,10 @@
+## 1.13.0
+
+- Repo moved to https://github.com/devise-i18n/devise-i18n
+- Online translations moved to https://app.transifex.com/devise-i18n/devise-i18n-1/dashboard/
+- Adjusted some plural forms to those provided by Transifex
+- Updated ar, lt, ru, and sl translations.
+
 ## 1.12.1
 
 - Updated bn, et, fr, and ru translations.

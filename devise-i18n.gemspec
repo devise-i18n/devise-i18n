@@ -25,7 +25,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency(%q<rails-i18n>.freeze, [">= 0"])
   s.add_development_dependency(%q<rspec>.freeze, [">= 2.8.0"])
   s.add_development_dependency(%q<rspec-rails>.freeze, [">= 0"])
-  s.add_development_dependency(%q<i18n-spec>.freeze, ["~> 0.6.0"])
   s.add_development_dependency(%q<railties>.freeze, [">= 0"])
   s.add_development_dependency(%q<activemodel>.freeze, [">= 0"])
   s.add_development_dependency(%q<omniauth-twitter>.freeze, [">= 0"])

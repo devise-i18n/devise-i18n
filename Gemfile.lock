@@ -61,14 +61,10 @@ GEM
     hashie (5.0.0)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
-    i18n-spec (0.6.0)
-      iso
     io-console (0.7.2)
     irb (1.14.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    iso (0.4.0)
-      i18n
     logger (1.6.1)
     loofah (2.22.0)
       crass (~> 1.0.2)
@@ -179,7 +175,6 @@ DEPENDENCIES
   activemodel
   appraisal
   devise-i18n!
-  i18n-spec (~> 0.6.0)
   omniauth-twitter
   railties
   rspec (>= 2.8.0)

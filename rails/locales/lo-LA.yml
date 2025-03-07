@@ -27,6 +27,7 @@ lo-LA:
         updated_at: ""
     models:
       user:
+        one: ຜູ່ໃຊ້
         other: ຜູ່ໃຊ້
   devise:
     confirmations:
@@ -126,6 +127,7 @@ lo-LA:
         sign_in_with_provider: "ເຂົ້າສູ່ລະບົບດ້ວຍ %{provider}"
         sign_up: ສະໝັກ
       minimum_password_length:
+        one: ""
         other: ""
     unlocks:
       new:
@@ -141,4 +143,5 @@ lo-LA:
       not_found: ບໍ່ພັບເຫັນ
       not_locked: ບໍ່ໄດ້ຖືກລັອກ
       not_saved:
+        one: "ຂໍ້ຜິດພາດ %{count}ຢ່າງໄດ້ຢຸດ %{resource} ບໍ່ໃຫ້ຖືກບັນທຶກໄດ້."
         other: "ຂໍ້ຜິດພາດ %{count}ຢ່າງໄດ້ຢຸດ %{resource} ບໍ່ໃຫ້ຖືກບັນທຶກໄດ້."

@@ -27,6 +27,7 @@ ja:
         updated_at: 更新日
     models:
       user:
+        one: ユーザー
         other: ユーザー
   devise:
     confirmations:

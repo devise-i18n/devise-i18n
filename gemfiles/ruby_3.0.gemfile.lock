@@ -75,7 +75,7 @@ GEM
       nokogiri (>= 1.12.0)
     minitest (5.25.5)
     mutex_m (0.3.0)
-    nokogiri (1.18.8-x86_64-linux-gnu)
+    nokogiri (1.17.2-x86_64-linux)
       racc (~> 1.4)
     oauth (1.1.0)
       oauth-tty (~> 1.0, >= 1.0.1)
@@ -181,6 +181,7 @@ DEPENDENCIES
   activemodel
   appraisal
   devise-i18n!
+  nokogiri (< 1.18)
   omniauth-twitter
   railties (< 7.2)
   rspec (>= 2.8.0)

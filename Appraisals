@@ -6,6 +6,7 @@ appraise "ruby-2.7" do
 end
 
 appraise "ruby-3.0" do
+  gem "nokogiri", "< 1.18"
   gem "railties", "< 7.2"
   gem "zeitwerk", "< 2.7"
   gem "securerandom", "< 0.4"

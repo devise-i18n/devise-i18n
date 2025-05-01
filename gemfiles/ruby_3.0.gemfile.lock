@@ -161,7 +161,7 @@ GEM
       rspec-mocks (~> 3.13)
       rspec-support (~> 3.13)
     rspec-support (3.13.2)
-    securerandom (0.4.1)
+    securerandom (0.3.2)
     snaky_hash (2.0.1)
       hashie
       version_gem (~> 1.1, >= 1.1.1)
@@ -185,6 +185,7 @@ DEPENDENCIES
   railties (< 7.2)
   rspec (>= 2.8.0)
   rspec-rails
+  securerandom (< 0.4)
   zeitwerk (< 2.7)
 
 BUNDLED WITH

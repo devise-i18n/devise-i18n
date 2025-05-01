@@ -5,5 +5,6 @@ source "https://rubygems.org"
 gem "nokogiri", "1.15.5"
 gem "railties", "< 7.2"
 gem "zeitwerk", "< 2.7"
+gem "securerandom", "< 0.4"
 
 gemspec path: "../"

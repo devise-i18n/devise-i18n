@@ -4,5 +4,6 @@ source "https://rubygems.org"
 
 gem "railties", "< 7.2"
 gem "zeitwerk", "< 2.7"
+gem "securerandom", "< 0.4"
 
 gemspec path: "../"

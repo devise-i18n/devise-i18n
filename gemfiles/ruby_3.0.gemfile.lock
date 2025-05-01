@@ -172,7 +172,7 @@ GEM
     version_gem (1.1.7)
     warden (1.2.9)
       rack (>= 2.0.9)
-    zeitwerk (2.7.2)
+    zeitwerk (2.6.18)
 
 PLATFORMS
   x86_64-linux
@@ -185,6 +185,7 @@ DEPENDENCIES
   railties (< 7.2)
   rspec (>= 2.8.0)
   rspec-rails
+  zeitwerk (< 2.7)
 
 BUNDLED WITH
    2.3.5

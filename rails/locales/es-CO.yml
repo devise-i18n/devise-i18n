@@ -27,9 +27,9 @@ es-CO:
         updated_at: Fecha de actualización
     models:
       user:
-        one: ''
-        many: ''
-        other: ''
+        one:
+        many:
+        other:
   devise:
     confirmations:
       confirmed: Tu dirección de correo electrónico se ha confirmado correctamente.
@@ -128,9 +128,9 @@ es-CO:
         sign_in_with_provider: "Iniciar sesión con %{provider}"
         sign_up: Registrarse
       minimum_password_length:
-        one: ""
-        many: ""
-        other: ""
+        one:
+        many:
+        other:
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instrucciones para desbloquear la cuenta
@@ -145,6 +145,6 @@ es-CO:
       not_found: no se encontró
       not_locked: no se encuentra bloqueada
       not_saved:
-        one: ''
-        many: ""
-        other: ""
+        one:
+        many:
+        other:

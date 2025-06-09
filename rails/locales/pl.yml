@@ -27,10 +27,10 @@ pl:
         updated_at: Data uaktualnienia
     models:
       user:
-        one: ''
-        few: ''
-        many: ''
-        other: ''
+        one:
+        few:
+        many:
+        other:
   devise:
     confirmations:
       confirmed: Twój adres e-mail został potwierdzony.

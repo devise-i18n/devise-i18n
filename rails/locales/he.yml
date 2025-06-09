@@ -27,9 +27,9 @@ he:
         updated_at: עודכן ב
     models:
       user:
-        one: ''
-        two: ''
-        other: ''
+        one:
+        two:
+        other:
   devise:
     confirmations:
       confirmed: חשבונך אושר בהצלחה.
@@ -128,9 +128,9 @@ he:
         sign_in_with_provider: "כניסה באמצעות %{provider}"
         sign_up: הרשמה
       minimum_password_length:
-        one: ""
-        two: ""
-        other: ""
+        one:
+        two:
+        other:
     unlocks:
       new:
         resend_unlock_instructions: שלח שוב הוראות ביטול נעילה
@@ -145,6 +145,6 @@ he:
       not_found: לא נמצא.
       not_locked: לא היה נעול.
       not_saved:
-        one: ''
-        two: ""
-        other: ""
+        one:
+        two:
+        other:

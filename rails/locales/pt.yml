@@ -27,9 +27,9 @@ pt:
         updated_at: Atualizado em
     models:
       user:
-        one: ''
-        many: ''
-        other: ''
+        one:
+        many:
+        other:
   devise:
     confirmations:
       confirmed: A sua conta foi confirmada com sucesso.
@@ -56,7 +56,7 @@ pt:
       email_changed:
         greeting: "Olá %{recipient}!"
         message: "Estamos a entrar em contacto para notificar que o seu endereço de email foi alterado para %{email}."
-        message_unconfirmed: ""
+        message_unconfirmed:
         subject: Endereço de email alterado
       password_change:
         greeting: "Olá %{recipient}!"
@@ -111,7 +111,7 @@ pt:
       signed_up_but_unconfirmed: Foi enviado um email com um link para confirmar o seu email. Por favor abra o link para ativar a sua conta.
       update_needs_confirmation: "A sua conta foi atualizada com sucesso, mas precisamos de confirmar o seu email. Por favor veja o seu email e clique no link para finalizar a confirmação do seu email."
       updated: A sua conta foi atualizada com sucesso.
-      updated_but_not_signed_in: ""
+      updated_but_not_signed_in:
     sessions:
       already_signed_out: Sessão terminada com sucesso.
       new:
@@ -128,9 +128,9 @@ pt:
         sign_in_with_provider: "Entrar com %{provider}"
         sign_up: Criar conta
       minimum_password_length:
-        one: ""
-        many: ""
-        other: ""
+        one:
+        many:
+        other:
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instruções de desbloqueio
@@ -145,6 +145,6 @@ pt:
       not_found: não foi encontrado
       not_locked: não foi bloqueado
       not_saved:
-        one: ''
-        many: ""
-        other: ""
+        one:
+        many:
+        other:

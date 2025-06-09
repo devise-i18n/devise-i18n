@@ -129,10 +129,10 @@ uk:
         sign_in_with_provider: "Увійти за допомогою %{provider}"
         sign_up: Зареєструватися
       minimum_password_length:
-        one: ""
-        few: ""
-        many: ""
-        other: ""
+        one:
+        few:
+        many:
+        other:
     unlocks:
       new:
         resend_unlock_instructions: Повторно надіслати вказівки з розблокування

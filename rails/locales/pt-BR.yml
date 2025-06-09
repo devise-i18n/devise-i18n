@@ -27,9 +27,9 @@ pt-BR:
         updated_at: Atualizado em
     models:
       user:
-        one: ''
-        many: ''
-        other: ''
+        one:
+        many:
+        other:
   devise:
     confirmations:
       confirmed: A sua conta foi confirmada com sucesso.
@@ -128,9 +128,9 @@ pt-BR:
         sign_in_with_provider: "Entrar com %{provider}"
         sign_up: Inscrever-se
       minimum_password_length:
-        one: ""
-        many: ""
-        other: ""
+        one:
+        many:
+        other:
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instruções de desbloqueio
@@ -145,6 +145,6 @@ pt-BR:
       not_found: não encontrado
       not_locked: não foi bloqueado
       not_saved:
-        one: ''
-        many: ""
-        other: ""
+        one:
+        many:
+        other:

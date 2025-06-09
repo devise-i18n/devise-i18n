@@ -1,2 +1,4 @@
 ../tx pull -a --use-git-timestamps
 sed -i '1!b;s/_/-/' rails/locales/*-*.yml
+sed -i 's/: ""/:/' rails/locales/*.yml
+sed -i "s/: ''/:/" rails/locales/*.yml

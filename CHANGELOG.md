@@ -1,3 +1,9 @@
+## 1.14.0
+
+- Stopped using empty strings for untranslated text. This was introduced inadvertently in 1.13.0 and breaks fallback behaviour.
+- Updated uk translations.
+- Added Ruby 3.4 to test matrix.
+
 ## 1.13.0
 
 - Repo moved to https://github.com/devise-i18n/devise-i18n

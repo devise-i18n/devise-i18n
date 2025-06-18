@@ -22,3 +22,6 @@ end
 
 appraise "ruby-3.3" do
 end
+
+appraise "ruby-3.4" do
+end

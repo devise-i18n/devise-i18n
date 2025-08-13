@@ -2,7 +2,6 @@ require "action_controller/railtie"
 require "active_model"
 require 'omniauth-twitter'
 require 'devise-i18n'
-require 'rails_i18n'
 
 class User
   def email

@@ -1,5 +1,6 @@
 require 'rails'
 require 'devise-i18n/view_helpers'
+require 'rails_i18n'
 
 module DeviseI18n
   class Engine < ::Rails::Engine

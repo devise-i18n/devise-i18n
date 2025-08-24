@@ -1,3 +1,7 @@
+## 1.15.0
+
+- Fixed an issue where pluralization was broken in certain languages like Japanese if the app didn't require `rails_i18n`.
+
 ## 1.14.0
 
 - Stopped using empty strings for untranslated text. This was introduced inadvertently in 1.13.0 and breaks fallback behaviour.

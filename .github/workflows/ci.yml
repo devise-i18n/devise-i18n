@@ -17,6 +17,7 @@ jobs:
           - 3.2
           - 3.3
           - 3.4
+          - '4.0'
     env:
       BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/ruby_${{ matrix.ruby-version }}.gemfile
     steps:

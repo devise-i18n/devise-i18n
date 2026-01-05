@@ -1,3 +1,7 @@
+## Unreleased
+
+- Added Ruby 4.0 to test matrix.
+
 ## 1.15.0
 
 - Fixed an issue where pluralization was broken in certain languages like Japanese if the app didn't require `rails_i18n`.

@@ -49,7 +49,7 @@ GEM
     bigdecimal (4.0.1)
     builder (3.3.0)
     concurrent-ruby (1.3.6)
-    connection_pool (3.0.2)
+    connection_pool (2.5.3)
     crass (1.0.6)
     date (3.5.1)
     devise (5.0.0.rc)
@@ -188,6 +188,7 @@ PLATFORMS
 DEPENDENCIES
   activemodel
   appraisal
+  connection_pool (< 3)
   devise-i18n!
   nokogiri (= 1.15.5)
   omniauth-twitter

@@ -74,8 +74,10 @@ GEM
     loofah (2.25.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
+    mini_portile2 (2.8.9)
     minitest (5.27.0)
-    nokogiri (1.19.0-x86_64-linux-gnu)
+    nokogiri (1.18.3)
+      mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     oauth (1.1.0)
       oauth-tty (~> 1.0, >= 1.0.1)
@@ -187,6 +189,7 @@ DEPENDENCIES
   connection_pool (< 3)
   devise-i18n!
   minitest (< 6)
+  nokogiri (< 1.19)
   omniauth-twitter
   railties (< 8.0)
   rspec (>= 2.8.0)

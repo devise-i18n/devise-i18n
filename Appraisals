@@ -21,6 +21,7 @@ appraise "ruby-3.1" do
   gem "zeitwerk", "< 2.7"
   gem "connection_pool", "< 3"
   gem "minitest", "< 6"
+  gem "nokogiri", "< 1.19"
 end
 
 appraise "ruby-3.3" do

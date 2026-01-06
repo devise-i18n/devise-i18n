@@ -74,8 +74,7 @@ GEM
     loofah (2.25.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    minitest (6.0.1)
-      prism (~> 1.5)
+    minitest (5.27.0)
     nokogiri (1.19.0-x86_64-linux-gnu)
       racc (~> 1.4)
     oauth (1.1.0)
@@ -99,7 +98,6 @@ GEM
     pp (0.6.3)
       prettyprint
     prettyprint (0.2.0)
-    prism (1.7.0)
     psych (5.3.1)
       date
       stringio
@@ -188,6 +186,7 @@ DEPENDENCIES
   appraisal
   connection_pool (< 3)
   devise-i18n!
+  minitest (< 6)
   omniauth-twitter
   railties (< 8.0)
   rspec (>= 2.8.0)

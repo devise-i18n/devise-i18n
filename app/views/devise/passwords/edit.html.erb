@@ -5,16 +5,16 @@
   <%= f.hidden_field :reset_password_token %>
 
   <div class="field">
-    <%= f.label :password, t('.new_password') %><br />
+    <p><%= f.label :password, t('.new_password') %></p>
     <% if @minimum_password_length %>
-      <em><%= t('devise.shared.minimum_password_length', count: @minimum_password_length) %></em><br />
+      <p><em><%= t('devise.shared.minimum_password_length', count: @minimum_password_length) %></em></p>
     <% end %>
-    <%= f.password_field :password, autofocus: true, autocomplete: "new-password" %>
+    <p><%= f.password_field :password, autofocus: true, autocomplete: "new-password" %></p>
   </div>
 
   <div class="field">
-    <%= f.label :password_confirmation, t('.confirm_new_password') %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+    <p><%= f.label :password_confirmation, t('.confirm_new_password') %></p>
+    <p><%= f.password_field :password_confirmation, autocomplete: "new-password" %></p>
   </div>
 
   <div class="actions">

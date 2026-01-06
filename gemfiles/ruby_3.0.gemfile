@@ -7,7 +7,7 @@ gem "railties", "< 7.2"
 gem "zeitwerk", "< 2.7"
 gem "securerandom", "< 0.4"
 gem "connection_pool", "< 3"
-gem "minitest", "< 6"
+gem "minitest", "< 5.26"
 gem "rdoc", "< 7"
 
 gemspec path: "../"

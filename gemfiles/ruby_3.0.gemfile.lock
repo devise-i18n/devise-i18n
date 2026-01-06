@@ -74,7 +74,7 @@ GEM
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     mini_portile2 (2.8.9)
-    minitest (5.27.0)
+    minitest (5.12.0)
     mutex_m (0.3.0)
     nokogiri (1.17.2)
       mini_portile2 (~> 2.8.2)
@@ -184,7 +184,7 @@ DEPENDENCIES
   appraisal
   connection_pool (< 3)
   devise-i18n!
-  minitest (< 6)
+  minitest (< 5.26)
   nokogiri (< 1.18)
   omniauth-twitter
   railties (< 7.2)

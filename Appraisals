@@ -4,7 +4,7 @@ appraise "ruby-2.7" do
   gem "zeitwerk", "< 2.7"
   gem "securerandom", "< 0.4"
   gem "connection_pool", "< 3"
-  gem "minitest", "< 6"
+  gem "minitest", "< 5.26"
   gem "rdoc", "< 7"
 end
 
@@ -14,7 +14,7 @@ appraise "ruby-3.0" do
   gem "zeitwerk", "< 2.7"
   gem "securerandom", "< 0.4"
   gem "connection_pool", "< 3"
-  gem "minitest", "< 6"
+  gem "minitest", "< 5.26"
   gem "rdoc", "< 7"
 end
 

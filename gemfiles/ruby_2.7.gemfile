@@ -8,5 +8,6 @@ gem "zeitwerk", "< 2.7"
 gem "securerandom", "< 0.4"
 gem "connection_pool", "< 3"
 gem "minitest", "< 6"
+gem "rdoc", "< 7"
 
 gemspec path: "../"

@@ -60,7 +60,6 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.6.1)
     drb (2.2.3)
-    erb (6.0.1)
     erubi (1.13.1)
     hashie (5.0.0)
     i18n (1.14.8)
@@ -135,10 +134,8 @@ GEM
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
     rake (13.3.1)
-    rdoc (7.0.3)
-      erb
+    rdoc (6.13.1)
       psych (>= 4.0.0)
-      tsort
     reline (0.6.3)
       io-console (~> 0.5)
     responders (3.2.0)
@@ -171,7 +168,6 @@ GEM
       version_gem (~> 1.1, >= 1.1.1)
     stringio (3.2.0)
     thor (1.4.0)
-    tsort (0.2.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     useragent (0.16.11)
@@ -192,6 +188,7 @@ DEPENDENCIES
   nokogiri (< 1.19)
   omniauth-twitter
   railties (< 8.0)
+  rdoc (< 7)
   rspec (>= 2.8.0)
   rspec-rails
   zeitwerk (< 2.7)

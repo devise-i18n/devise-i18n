@@ -1,4 +1,4 @@
-pt-BR:
+pt_BR:
   activerecord:
     attributes:
       user:
@@ -27,9 +27,9 @@ pt-BR:
         updated_at: Atualizado em
     models:
       user:
-        one:
-        many:
-        other:
+        one: ''
+        many: ''
+        other: ''
   devise:
     confirmations:
       confirmed: A sua conta foi confirmada com sucesso.
@@ -86,7 +86,7 @@ pt-BR:
         new_password: Nova senha
       new:
         forgot_your_password: "Esqueceu sua senha?"
-        send_me_reset_password_instructions: Enviar instruções para redefinição da senha
+        send_me_reset_password_instructions: ""
       no_token: "Você não pode acessar esta página sem estar logado. Se você veio de um email de redefinição de senha, por favor certifique-se de ter digitado a URL corretamente."
       send_instructions: "Dentro de minutos, você receberá um e-mail com as instruções de redefinição da sua senha."
       send_paranoid_instructions: "Se o seu email existir em nosso banco de dados, você receberá um email com um link para recuperação da senha."
@@ -107,7 +107,7 @@ pt-BR:
         sign_up: Inscrever-se
       signed_up: Bem vindo! Você realizou seu registro com sucesso.
       signed_up_but_inactive: "Você se inscreveu com sucesso, porém nós não podemos autenticá-lo porque sua conta ainda não foi ativada."
-      signed_up_but_locked: Você se inscreveu com sucesso. Porém nós não podemos autenticá-lo porque sua conta está bloqueada.
+      signed_up_but_locked: "Você se inscreveu com sucesso. Porém nós não podemos autenticá-lo porque sua conta está bloqueada."
       signed_up_but_unconfirmed: "Uma mensagem com um link de confirmação foi enviada para o seu e-mail. Por favor, acesse o link para ativar sua conta."
       update_needs_confirmation: "Sua conta foi atualizada com sucesso, mas nós precisamos verificar o novo endereço de email. Por favor, verifique seu e-mail e clique no link de confirmação para finalizar confirmando o seu novo e-mail."
       updated: A sua conta foi atualizada com sucesso.
@@ -128,9 +128,9 @@ pt-BR:
         sign_in_with_provider: "Entrar com %{provider}"
         sign_up: Inscrever-se
       minimum_password_length:
-        one:
-        many:
-        other:
+        one: ""
+        many: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instruções de desbloqueio
@@ -139,12 +139,12 @@ pt-BR:
       unlocked: A sua conta foi desbloqueada com sucesso. Efetue login para continuar.
   errors:
     messages:
-      already_confirmed: já foi confirmado
+      already_confirmed: "já foi confirmado"
       confirmation_period_expired: "É necessário ser confirmado dentro do período %{period}, por favor requisite um novo usuário."
       expired: "expirou, por favor solicite uma nova"
       not_found: não encontrado
       not_locked: não foi bloqueado
       not_saved:
-        one:
-        many:
-        other:
+        one: ''
+        many: ""
+        other: ""

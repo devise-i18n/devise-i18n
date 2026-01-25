@@ -85,7 +85,7 @@ de:
         new_password: Neues Passwort
       new:
         forgot_your_password: "Haben Sie Ihr Passwort vergessen?"
-        send_me_reset_password_instructions: Anweisungen zum Zurücksetzen meines Passworts senden
+        send_me_reset_password_instructions: ""
       no_token: "Sie können diese Seite nicht nutzen, es sei denn, Sie stammen von einer Passwort-Zurücksetzen-E-Mail. Wenn dies der Fall ist, stellen Sie sicher, dass Sie die vollständige URL verwendet haben."
       send_instructions: Sie erhalten in Kürze eine E-Mail mit Anweisungen zum Zurücksetzen Ihres Passworts.
       send_paranoid_instructions: "Wenn Ihre E-Mail-Adresse in unserer Datenbank existiert, erhalten Sie in Kürze eine E-Mail mit Anweisungen zum Zurücksetzen Ihres Passworts."
@@ -139,7 +139,7 @@ de:
     messages:
       already_confirmed: "Bereits bestätigt. Versuchen Sie, sich anzumelden."
       confirmation_period_expired: "Die Bestätigungsfrist von %{period} ist abgelaufen. Bitte erneut anfordern."
-      expired: Der Link ist abgelaufen. Bitte erneut anfordern.
+      expired: "Der Link ist abgelaufen. Bitte erneut anfordern."
       not_found: Nicht gefunden.
       not_locked: Nicht gesperrt.
       not_saved:

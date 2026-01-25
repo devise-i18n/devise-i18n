@@ -55,7 +55,7 @@ mk:
       email_changed:
         greeting: "Здраво %{recipient}!"
         message: "Ве контактираме за да Ве известиме дека Вашата е-маил адреса е заменета со %{email}."
-        message_unconfirmed:
+        message_unconfirmed: ""
         subject: Промена на е-маил
       password_change:
         greeting: "Здраво %{recipient}!"
@@ -85,7 +85,7 @@ mk:
         new_password: Нова лозинка
       new:
         forgot_your_password: "Ја заборавивте лозинката?"
-        send_me_reset_password_instructions: Испрати ми инструкции за промена на лозинка
+        send_me_reset_password_instructions: ""
       no_token: "Не можете да пристапите до оваа страна доколку не доаѓате од е-маил за промена на лозинка. Доколку доаѓате од е-маил за промена на лозинка, Ве замолуваме да проверите дали го имате целосниот URL."
       send_instructions: Ќе добиете е-маил со инструкции за промена на Вашата лозинка во неколку минути.
       send_paranoid_instructions: "Доколку Вашата е-маил адреса веќе постои во базата со податоци, на Вашата е-маил адреса ќе добиете линк за обновување на лозинката во неколку минути."

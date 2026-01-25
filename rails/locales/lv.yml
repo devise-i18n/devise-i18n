@@ -56,7 +56,7 @@ lv:
       email_changed:
         greeting: "Sveicināti, %{recipient}!"
         message: "Informējam, ka Jūsu epasts ir nomainīts uz %{email}."
-        message_unconfirmed:
+        message_unconfirmed: ""
         subject: Epasts nomainīts
       password_change:
         greeting: "Sveicināti, %{recipient}!"
@@ -86,7 +86,7 @@ lv:
         new_password: Jauna parole
       new:
         forgot_your_password: "Aizmirsāt paroli?"
-        send_me_reset_password_instructions: Atsūtīt paroles maiņas instrukciju
+        send_me_reset_password_instructions: ""
       no_token: "Šī lapa ir pieejama tikai no paroles maiņas e-pasta. Ja Jūs atvērāt šo lapu no e-pasta, tad pārliecinieties, ka izmantojāt pilno URL adresi."
       send_instructions: "Pāris minūšu laikā uz Jūsu epastu tiks nosūtīts apraksts, kā nomainīt jūsu paroli."
       send_paranoid_instructions: "Ja Jūsu parole eksistē mūsu datubāzē, tad jums tiks nosūtīts paroles atjaunošanas apraksts uz epastu"
@@ -100,7 +100,7 @@ lv:
         currently_waiting_confirmation_for_email: 'Pašlaik gaida apstiprinājumu epastam: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: "atstājiet tukšu šo lauku, ja nevēlaties veikt izmaiņas"
         title: "Rediģēt %{resource}"
-        unhappy: Neapmierināts
+        unhappy: "Neapmierināts"
         update: Izmainīt
         we_need_your_current_password_to_confirm_your_changes: "mums ir nepieciešama Jūsu tagadējā parole, lai veiktu izmaiņas"
       new:
@@ -111,7 +111,7 @@ lv:
       signed_up_but_unconfirmed: "Jums ir nosūtīts e-pasts ar reģistrācijas apstiprinājuma saiti. Lūdzu, atveriet šo saiti, lai aktivizētu Jūsu lietotāju."
       update_needs_confirmation: "Jūsu labotās izmaiņas ir veiksmīgi saglabātas, bet mums ir jāpārbauda Jūsu jaunā e-pasta adrese. Lūdzu, pārbaudiet Jūsu e-pastu un uzklikšķiniet uz apstiprinājuma saites, lai pabeigtu Jūsu jaunās e-pasta adreses apstiprināšanu."
       updated: Jūsu labotās izmaiņas ir veiksmīgi saglabātas.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: ""
     sessions:
       already_signed_out: Veiksmīgi atslēdzies.
       new:

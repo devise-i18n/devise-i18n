@@ -1,4 +1,4 @@
-en-GB:
+en_GB:
   activerecord:
     attributes:
       user:
@@ -85,7 +85,7 @@ en-GB:
         new_password: New password
       new:
         forgot_your_password: "Forgotten your password?"
-        send_me_reset_password_instructions: Send me reset password instructions
+        send_me_reset_password_instructions: ""
       no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
       send_instructions: You will receive an email with instructions about how to reset your password in a few minutes.
       send_paranoid_instructions: "If your email exists on our database, you will receive a password recovery link on your email"

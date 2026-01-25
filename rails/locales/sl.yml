@@ -87,7 +87,7 @@ sl:
         new_password: Novo geslo
       new:
         forgot_your_password: "Ste pozabili geslo?"
-        send_me_reset_password_instructions: Pošlji mi navodila za ponastavitev gesla
+        send_me_reset_password_instructions: ""
       no_token: "Do te strani ne morete dostopati brez povezave iz e-pošte za ponastavitev gesla. Prepričajte se, da ste uporabili celoten URL, ki ste ga prejeli v e-pošti."
       send_instructions: V nekaj minutah boste prejeli e-pošto z navodili za ponastavitev gesla.
       send_paranoid_instructions: "Če vaš e-poštni naslov obstaja v naši bazi, boste v nekaj minutah prejeli povezavo za obnovitev gesla."

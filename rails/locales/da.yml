@@ -85,7 +85,7 @@ da:
         new_password: Ny adgangskode
       new:
         forgot_your_password: "Glemt adgangskode?"
-        send_me_reset_password_instructions: Send mig instruktioner om at skifte adgangskode
+        send_me_reset_password_instructions: ""
       no_token: "Du kan ikke tilgå denne side uden at komme fra en mail med instruktioner om, hvordan du skifter din adgangskode. Hvis du kommer fra en sådan mail, så tjek venligst, at du har benyttet det fulde link, som er angivet."
       send_instructions: "Du vil i løbet af få minutter modtage en mail med instruktioner om, hvordan du skifter din adgangskode."
       send_paranoid_instructions: "Hvis din e-mail findes i vores database, vil du i løbet af få minutter modtage en mail med instruktioner om, hvordan du skifter din adgangskode."

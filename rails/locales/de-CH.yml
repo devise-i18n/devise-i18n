@@ -1,4 +1,4 @@
-de-CH:
+de_CH:
   activerecord:
     attributes:
       user:
@@ -55,7 +55,7 @@ de-CH:
       email_changed:
         greeting: "Hallo %{recipient}!"
         message: "Wir schreiben Ihnen, um Sie darüber zu informieren, dass Ihre E-Mail-Adresse zu %{email} geändert wurde."
-        message_unconfirmed:
+        message_unconfirmed: ""
         subject: E-Mail-Adresse geändert
       password_change:
         greeting: "Hallo %{recipient}!"
@@ -85,7 +85,7 @@ de-CH:
         new_password: Neues Passwort
       new:
         forgot_your_password: "Haben Sie Ihr Passwort vergessen?"
-        send_me_reset_password_instructions: "Schicken Sie mir die Anleitung, um mein Passwort zurückzusetzen"
+        send_me_reset_password_instructions: ""
       no_token: "Sie können sich nicht auf dieser Seite anmelden, wenn Sie nicht von einer Passwort-Zurücksetzen-E-Mail kommen. Wenn Sie von solch einer E-Mail kommen, überprüfen Sie bitte, ob Sie die gesamte URL verwendeten."
       send_instructions: "Sie erhalten in wenigen Minuten eine E-Mail mit der Anleitung, wie Sie Ihr Passwort zurücksetzen können."
       send_paranoid_instructions: "Falls Ihre E-Mail-Adresse in unserer Datenbank existiert, erhalten Sie in wenigen Minuten eine E-Mail, mit der Anleitung, wie Sie Ihr Passwort zurücksetzen können."
@@ -99,7 +99,7 @@ de-CH:
         currently_waiting_confirmation_for_email: 'Warte auf Bestätigung von %{email}.'
         leave_blank_if_you_don_t_want_to_change_it: "freilassen, wenn Sie das nicht ändern wollen"
         title: "%{resource} bearbeiten"
-        unhappy: Unglücklich
+        unhappy: "Unglücklich"
         update: Aktualisieren
         we_need_your_current_password_to_confirm_your_changes: "wir benötigen Ihr aktuelles Passwort, um die Änderung zu bestätigen"
       new:

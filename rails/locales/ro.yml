@@ -56,7 +56,7 @@ ro:
       email_changed:
         greeting: "Bună %{recipient}!"
         message: "Te contactăm pentru a te informa că adresa ta de email va fi înlocuită cu %{email}."
-        message_unconfirmed:
+        message_unconfirmed: ""
         subject: Adresă de email actualizată
       password_change:
         greeting: "Bună %{recipient}!"
@@ -86,7 +86,7 @@ ro:
         new_password: Parolă nouă
       new:
         forgot_your_password: "Ați uitat parola?"
-        send_me_reset_password_instructions: Trimiteți instrucțiuni de resetare a parolei
+        send_me_reset_password_instructions: ""
       no_token: "Nu puteți accesa această pagină dacă nu veniți de la un email de resetare a parolei. Dacă veniți de la un astfel de email, vă rugăm asigurați-vă că aţi utiliz at URL-ul complet furnizat către dumneavoastră."
       send_instructions: Veţi primi un e-mail cu instrucţiuni pentru resetarea parolei dvs. în câteva minute.
       send_paranoid_instructions: "Dacă e-mailul dvs. există în baza noastră de date, veţi primi un link de recuperare a parolei pe adresa de e-mail."
@@ -100,7 +100,7 @@ ro:
         currently_waiting_confirmation_for_email: 'Se asteaptă confirmare pentru: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: lăsați gol dacă nu doriți să schimbați
         title: "Editează %{resource}"
-        unhappy: Nefericit
+        unhappy: "Nefericit"
         update: Actualizați
         we_need_your_current_password_to_confirm_your_changes: avem nevoie de parola curentă pentru a confirma schimbările
       new:
@@ -111,7 +111,7 @@ ro:
       signed_up_but_unconfirmed: Un mesaj cu un link de confirmare a fost trimis la adresa dvs. de e-mail. Vă rugăm sa deschideți link-ul pentru a activa contul.
       update_needs_confirmation: "Aţi actualizat contul dvs. de succes, dar avem nevoie să verificăm adresa dvs. de e-mail. Vă rugăm să verificați adresa de email şi faceţi clic pe link-ul de confirmă pentru a finaliza confirmarea adresei dvs. de e-mail."
       updated: Aţi actualizat contul dvs. cu succes.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: ""
     sessions:
       already_signed_out: Deautentificarea s-a efectuat cu success.
       new:

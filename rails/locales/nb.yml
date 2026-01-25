@@ -35,7 +35,7 @@ nb:
       new:
         resend_confirmation_instructions: Send bekreftelsesinstruksjoner på nytt
       send_instructions: Du vil snart motta en epost med instruksjoner for å aktivere din konto.
-      send_paranoid_instructions: Om vi har din e-post allerede vil du om få minutter motta en e-post med instruksjoner for å bekrefte kontoen.
+      send_paranoid_instructions: "Om vi har din e-post allerede vil du om få minutter motta en e-post med instruksjoner for å bekrefte kontoen."
     failure:
       already_authenticated: Du er allerede innlogget.
       inactive: Din konto er ikke aktivert.
@@ -65,7 +65,7 @@ nb:
         action: Bytt passord
         greeting: "Hei, %{recipient}!"
         instruction: "Noen har bedt om en link for å endre passordet ditt, og dette kan gjøres på lenken under."
-        instruction_2: Vennligst se bort fra denne e-posten hvis du ikke ba om dette.
+        instruction_2: "Vennligst se bort fra denne e-posten hvis du ikke ba om dette."
         instruction_3: Passordet ditt endres ikke før du følger linken over og velger et nytt passord.
         subject: Instruksjoner for å tilbakestille passordet
       unlock_instructions:
@@ -85,7 +85,7 @@ nb:
         new_password: Nytt passord
       new:
         forgot_your_password: "Har du glemt passordet?"
-        send_me_reset_password_instructions: Send instrukser for å tilbakestille passordet
+        send_me_reset_password_instructions: ""
       no_token: "For å få tilgang til denne siden må du ha fått en epost om å tilbakestille passordet. Hvis det er tilfelle, sørg for at hele lenken blir brukt."
       send_instructions: Du vil snart motta en epost med instruksjoner for å tilbakestille passordet ditt.
       send_paranoid_instructions: "Hvis e-postadressen allerede finnes hos oss, vil du motta en lenke for å sette passordet på nytt"
@@ -105,8 +105,8 @@ nb:
       new:
         sign_up: Registrering
       signed_up: Velkommen! Din registrering er vellykket.
-      signed_up_but_inactive: Du er nå registrert. Men vi kan ikke logge deg inn før kontoen blir aktivert.
-      signed_up_but_locked: Du er nå registrert. Men vi kan ikke logge deg inn fordi kontoen er sperret.
+      signed_up_but_inactive: "Du er nå registrert. Men vi kan ikke logge deg inn før kontoen blir aktivert."
+      signed_up_but_locked: "Du er nå registrert. Men vi kan ikke logge deg inn fordi kontoen er sperret."
       signed_up_but_unconfirmed: En bekreftelsesmelding er sendt til e-postadressen. Vennligst åpne lenken for å aktivere kontoen.
       update_needs_confirmation: "Brukerkontoen er nå oppdatert, men vi må bekrefte den nye e-postadressen. Vennligst sjekk din e-post og klikk på lenken for å bekrefte din nye e-postadresse."
       updated: Din brukerkonto er oppdatert.
@@ -137,7 +137,7 @@ nb:
       unlocked: Din konto er gjenåpnet og du er nå innlogget.
   errors:
     messages:
-      already_confirmed: har allerede blitt bekreftet. Prøv å logge inn.
+      already_confirmed: "har allerede blitt bekreftet. Prøv å logge inn."
       confirmation_period_expired: "må bekreftes innen %{period}, vennligst be om et nytt"
       expired: "har utløpt, vennligst forespør en ny"
       not_found: ikke funnet

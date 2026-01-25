@@ -27,10 +27,10 @@ pl:
         updated_at: Data uaktualnienia
     models:
       user:
-        one:
-        few:
-        many:
-        other:
+        one: ''
+        few: ''
+        many: ''
+        other: ''
   devise:
     confirmations:
       confirmed: Twój adres e-mail został potwierdzony.
@@ -87,7 +87,7 @@ pl:
         new_password: Nowe hasło
       new:
         forgot_your_password: "Zapomniałeś swojego hasła?"
-        send_me_reset_password_instructions: Wyślij instrukcje zmiany hasła
+        send_me_reset_password_instructions: ""
       no_token: "Do tej strony możesz dostać się tylko poprzez wiadomość e-mail resetującą hasło. Jeśli to z niej tu trafiłeś, upewnij się, że użyłeś pełnego adresu."
       send_instructions: Instrukcja zmiany hasła zostanie niezwłocznie wysłana na podany adres e-mail.
       send_paranoid_instructions: "Jeśli Twój adres e-mail istnieje w naszej bazie, otrzymasz zaraz wiadomość z instrukcjami odzyskiwania hasła."
@@ -101,7 +101,7 @@ pl:
         currently_waiting_confirmation_for_email: 'Aktualnie oczekujemy na potwierdzenie z: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: "pozostaw puste, jeśli nie chcesz wprowadzać zmian"
         title: "Edytuj %{resource}"
-        unhappy: Niezadowolony
+        unhappy: "Niezadowolony"
         update: Aktualizuj
         we_need_your_current_password_to_confirm_your_changes: "potrzebujemy Twojego bieżącego hasła, aby potwierdzić zmiany"
       new:

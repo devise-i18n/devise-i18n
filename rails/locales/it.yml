@@ -27,9 +27,9 @@ it:
         updated_at: Aggiornato il
     models:
       user:
-        one:
-        many:
-        other:
+        one: ''
+        many: ''
+        other: ''
   devise:
     confirmations:
       confirmed: Il tuo account è stato correttamente confermato.
@@ -56,7 +56,7 @@ it:
       email_changed:
         greeting: "Ciao %{recipient}!"
         message: "Ti stiamo contattando per notificarti che la tua email è stata cambiata in %{email}."
-        message_unconfirmed:
+        message_unconfirmed: ""
         subject: Email modificata
       password_change:
         greeting: "Ciao %{recipient}!"
@@ -66,7 +66,7 @@ it:
         action: Cambia la mia password
         greeting: "Ciao %{recipient}!"
         instruction: "Qualcuno ha richiesto di resettare la tua password, se lo vuoi davvero puoi farlo cliccando sul link qui sotto."
-        instruction_2: Se non sei stato tu ad effettuare questa richiesta puoi ignorare questa mail.
+        instruction_2: "Se non sei stato tu ad effettuare questa richiesta puoi ignorare questa mail."
         instruction_3: La tua password non cambierà finché non accederai al link sopra.
         subject: Istruzioni per reimpostare la password
       unlock_instructions:
@@ -86,8 +86,8 @@ it:
         new_password: Nuova password
       new:
         forgot_your_password: "Password dimenticata?"
-        send_me_reset_password_instructions: Inviami le istruzioni per resettare la password
-      no_token: Puoi accedere a questa pagina solamente dalla email di reset della password. Se vieni dalla email controlla di aver inserito l'url completo riportato nella email.
+        send_me_reset_password_instructions: ""
+      no_token: "Puoi accedere a questa pagina solamente dalla email di reset della password. Se vieni dalla email controlla di aver inserito l'url completo riportato nella email."
       send_instructions: Riceverai un messaggio email con le istruzioni per reimpostare la tua password entro qualche minuto.
       send_paranoid_instructions: "Se la tua email esiste nel nostro database, riceverai un messaggio email contentente un link per il ripristino della password"
       updated: La tua password è stata cambiata. Ora sei collegato.
@@ -100,14 +100,14 @@ it:
         currently_waiting_confirmation_for_email: 'In attesa di conferma per: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: lascia in bianco se non vuoi cambiarla
         title: "Modifica %{resource}"
-        unhappy: Scontento
+        unhappy: "Scontento"
         update: Aggiorna
         we_need_your_current_password_to_confirm_your_changes: abbiamo bisogno della tua password attuale per confermare i cambiamenti
       new:
         sign_up: Registrati
       signed_up: "Iscrizione eseguita correttamente. Se abilitata, una conferma è stata inviata al tuo indirizzo email."
-      signed_up_but_inactive: Iscrizione eseguita correttamente. Però non puoi accedere in quanto il tuo account non è ancora attivo.
-      signed_up_but_locked: Iscrizione eseguita correttamente. Però non puoi accedere in quanto il tuo account è bloccato.
+      signed_up_but_inactive: "Iscrizione eseguita correttamente. Però non puoi accedere in quanto il tuo account non è ancora attivo."
+      signed_up_but_locked: "Iscrizione eseguita correttamente. Però non puoi accedere in quanto il tuo account è bloccato."
       signed_up_but_unconfirmed: Ti è stato inviato un messaggio con un link di conferma. Ti invitiamo a visitare il link per attivare il tuo account.
       update_needs_confirmation: "Il tuo account è stato aggiornato, ma dobbiamo verificare la tua email. Ti invitiamo a consultare la tua email e cliccare sul link di conferma."
       updated: Il tuo account è stato aggiornato.
@@ -128,9 +128,9 @@ it:
         sign_in_with_provider: "Accedi con %{provider}"
         sign_up: Registrati
       minimum_password_length:
-        one:
-        many:
-        other:
+        one: ""
+        many: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Invia di nuovo le istruzioni per lo sblocco
@@ -139,12 +139,12 @@ it:
       unlocked: Il tuo account è stato correttamente sbloccato. Ora sei collegato.
   errors:
     messages:
-      already_confirmed: è stato già confermato
+      already_confirmed: "è stato già confermato"
       confirmation_period_expired: "deve essere confermato entro %{period}, richiedi una nuova conferma"
       expired: "è scaduto, si prega di richiederne uno nuovo"
       not_found: non trovato
       not_locked: non era bloccato
       not_saved:
-        one:
-        many:
-        other:
+        one: ''
+        many: ""
+        other: ""

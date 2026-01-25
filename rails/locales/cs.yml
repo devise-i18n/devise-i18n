@@ -87,7 +87,7 @@ cs:
         new_password: Nové heslo
       new:
         forgot_your_password: "Zapomněli jste své heslo?"
-        send_me_reset_password_instructions: Poslat instrukce pro obnovení hesla
+        send_me_reset_password_instructions: ""
       no_token: "Na tuto stránku se nelze dostat jinak než z e-mailu pro resetování hesla. Pokud jste přišli z takového e-mailu, přesvědčte se že jste použili celou URL adresu."
       send_instructions: Za několik minut obdržíte e-mail s instrukcemi pro nastavení nového hesla.
       send_paranoid_instructions: "Pokud Vaše e-mailová adresa existuje v naší databázi, za několik minut obdržíte e-mail s instrukcemi pro nastavení nového hesla."

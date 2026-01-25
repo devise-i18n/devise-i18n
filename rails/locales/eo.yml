@@ -85,7 +85,7 @@ eo:
         new_password: Nova pasvorto
       new:
         forgot_your_password: "Ĉu vi forgesis vian pasvorton?"
-        send_me_reset_password_instructions: Sendu al mi instrukciojn por ŝanĝi mian pasvorton
+        send_me_reset_password_instructions: ""
       no_token: "Vi ne povas aliri al ĉi tiu paĝo alimaniere ol per retmesaĝo por ŝanĝi pasvorton. Se vi venas de tia retmesaĝo, bonvolu certiĝi, ke vi uzas la tutan URL-on donitan."
       send_instructions: Vi ricevos ligilon por havi novan pasvorton ĉe via retadreso ene de kelkaj minutoj. Bonvolu kontroli vian spamujon se vi ne ricevis ĉi tiun retmesaĝon.
       send_paranoid_instructions: "Se via retadreso ekzistas en nia datumbazo, vi ricevos ligilon por havi novan pasvorton ĉe via retadreso ene de kelkaj minutoj. Bonvolu kontroli vian spamujon se vi ne ricevis ĉi tiun retmesaĝon."

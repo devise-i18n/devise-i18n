@@ -84,7 +84,7 @@ vi:
         new_password: Mật khẩu mới
       new:
         forgot_your_password: "Quên mật khẩu?"
-        send_me_reset_password_instructions: Gửi cho tôi hướng dẫn cài đặt lại mật khẩu
+        send_me_reset_password_instructions: ""
       no_token: "Bạn chỉ có thể truy cập trang này từ email đặt lại mật khẩu. Nếu bạn truy cập từ email đặt lại mật khẩu, xin chắc chắn rằng bạn dùng đường dẫn đầy đủ trong email."
       send_instructions: Bạn sẽ nhận được email hướng dẫn thiết lập lại mật khẩu trong vài phút nữa.
       send_paranoid_instructions: "Nếu email của bạn có trong hệ thống, bạn sẽ nhận được đường dẫn khôi phục mật khẩu trong vài phút nữa qua email."
@@ -98,14 +98,14 @@ vi:
         currently_waiting_confirmation_for_email: 'Đang đợi xác nhận tài khoản email: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: để trống nếu bạn không muốn thay đổi mật khẩu
         title: "Cập nhật %{resource}"
-        unhappy: Không hài lòng
+        unhappy: "Không hài lòng"
         update: Cập nhật
         we_need_your_current_password_to_confirm_your_changes: we need your current password to confirm your changes
       new:
         sign_up: Đăng ký
       signed_up: Xin chào! Bạn đã đăng ký thành công.
       signed_up_but_inactive: "Bạn đã đăng ký thành công. Tuy nhiên, bạn cần phải kích hoạt tài khoản trước khi có thể đăng nhập được."
-      signed_up_but_locked: Bạn đã đăng ký thành công. Tuy nhiên tài khoản của bạn đã bị khóa nên không thể đăng nhập được.
+      signed_up_but_locked: "Bạn đã đăng ký thành công. Tuy nhiên tài khoản của bạn đã bị khóa nên không thể đăng nhập được."
       signed_up_but_unconfirmed: Một email chứa đường dẫn xác nhận tài khoản đã được gửi cho bạn. Bạn vui lòng kiểm tra email.
       update_needs_confirmation: "Tài khoản của bạn được cập nhật thành công, nhưng bạn cần xác nhận địa chỉ email mới. Vui lòng kiểm tra email và nhấn vào đường dẫn xác nhận tài khoản để hoàn tất việc thay đổi địa chỉ email."
       updated: Cập nhật tài khoản thành công.

@@ -27,9 +27,9 @@ he:
         updated_at: עודכן ב
     models:
       user:
-        one:
-        two:
-        other:
+        one: ''
+        two: ''
+        other: ''
   devise:
     confirmations:
       confirmed: חשבונך אושר בהצלחה.
@@ -86,7 +86,7 @@ he:
         new_password: סיסמא חדשה
       new:
         forgot_your_password: "שכחת סיסמא?"
-        send_me_reset_password_instructions: שלח לי הוראות שיחזור סיסמא
+        send_me_reset_password_instructions: ""
       no_token: "אינך יכול/ה לגשת לעמוד זה אם לא הופנת מאימייל לשינוי סיסמא. אם את/ה כן מגיע משם, אנא ודא/י שהשתמשת בכתובת אינטרנט המלאה."
       send_instructions: בדקות הקרובות יגיע אליך אימייל עם הנחיות כיצד לאפס את סיסמתך.
       send_paranoid_instructions: "אם האימייל שלך קיים במאגר, אנו נשלח לך לינק לחידוש סיסמא באימייל."
@@ -100,7 +100,7 @@ he:
         currently_waiting_confirmation_for_email: 'ממתין לאישור של הכתובת: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: השאר ריק אם אין ברצונך לשנותו
         title: "ערוך %{resource}"
-        unhappy: לא מרוצה
+        unhappy: "לא מרוצה"
         update: עדכן
         we_need_your_current_password_to_confirm_your_changes: אנחנו זקוקים לסיסמאתך הנוכחית על מנת לבצע את השינויים שביקשת
       new:
@@ -128,9 +128,9 @@ he:
         sign_in_with_provider: "כניסה באמצעות %{provider}"
         sign_up: הרשמה
       minimum_password_length:
-        one:
-        two:
-        other:
+        one: ""
+        two: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: שלח שוב הוראות ביטול נעילה
@@ -139,12 +139,12 @@ he:
       unlocked: הנעילה הוסרה בהצלחה. כעת הנך מחובר/ת.
   errors:
     messages:
-      already_confirmed: כבר אושר. אנא נסה להיכנס למערכת.
+      already_confirmed: "כבר אושר. אנא נסה להיכנס למערכת."
       confirmation_period_expired: "יש לאמת בתוך %{period}, אנא צור בקשה חדשה"
       expired: "פג תוקף, אנא בקש אחד חדש."
       not_found: לא נמצא.
       not_locked: לא היה נעול.
       not_saved:
-        one:
-        two:
-        other:
+        one: ''
+        two: ""
+        other: ""

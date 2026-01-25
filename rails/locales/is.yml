@@ -35,7 +35,7 @@ is:
       new:
         resend_confirmation_instructions: Endursenda leiðbeiningar staðfestingar.
       send_instructions: Eftir nokkrar mínútur munt þú fá tölvupóst með leiðbeiningum um hvernig eigi að staðfesta aðganginn.
-      send_paranoid_instructions: Ef netfangið þitt er til í gagnagrunninum okkar munt þú fá leiðbeiningar um hvernig eigi að staðfesta aðganginn sendar tölvupósti innan nokkurra mínútna.
+      send_paranoid_instructions: "Ef netfangið þitt er til í gagnagrunninum okkar munt þú fá leiðbeiningar um hvernig eigi að staðfesta aðganginn sendar tölvupósti innan nokkurra mínútna."
     failure:
       already_authenticated: Þú ert nú þegar innskráð(ur).
       inactive: Aðgangurinn þinn hefur ekki verið staðfestur.
@@ -55,7 +55,7 @@ is:
       email_changed:
         greeting: "Halló %{recipient}!"
         message: "Við erum að láta þig vita að  tölvupóstfangi þínu verði breytt í %{email}."
-        message_unconfirmed:
+        message_unconfirmed: ""
         subject: Tölvupósti breytt
       password_change:
         greeting: "Halló %{recipient}!"
@@ -85,10 +85,10 @@ is:
         new_password: Nýtt lykilorð
       new:
         forgot_your_password: "Gleymt lykilorð?"
-        send_me_reset_password_instructions: Senda mér leiðbeiningar til að endursetja lykilorð
+        send_me_reset_password_instructions: ""
       no_token: "Þú getur ekki séð þessa síðu án þess að koma frá tölvupósti sem núllstillir lykilorð. Ef þú ert að koma frá slíkum pósti, vertu viss um að öll slóðin frá tölvupóstinum sé notuð."
       send_instructions: Innan nokkra mínútna færðu tölvupóst með leiðbeiningum um hvernig hægt sé að endurstilla aðganginn þinn.
-      send_paranoid_instructions: Ef netfangið þitt er til í gagnagrunninum okkar munt þú fá leiðbeiningar um endurstillingu sendar í tölvupósti innan nokkra mínútna.
+      send_paranoid_instructions: "Ef netfangið þitt er til í gagnagrunninum okkar munt þú fá leiðbeiningar um endurstillingu sendar í tölvupósti innan nokkra mínútna."
       updated: Lykilorði þínu hefur nú verið breytt. Þú ert núna innskráð(ur).
       updated_not_active: Lykilorði þínu hefur nú verið breytt.
     registrations:
@@ -105,12 +105,12 @@ is:
       new:
         sign_up: Nýskrá
       signed_up: Velkomin(n)! Þú hefur nýskráð þig.
-      signed_up_but_inactive: Þú hefur nýskráð þig. Hins vegar gátum við ekki innskráð þig því að aðgangurinn þinn hefur ekki verið virktur.
-      signed_up_but_locked: Þú hefur nýskráð þig. Hins vegar gátum við ekki innskráð þig því að aðgangurinn þinn er læstur.
+      signed_up_but_inactive: "Þú hefur nýskráð þig. Hins vegar gátum við ekki innskráð þig því að aðgangurinn þinn hefur ekki verið virktur."
+      signed_up_but_locked: "Þú hefur nýskráð þig. Hins vegar gátum við ekki innskráð þig því að aðgangurinn þinn er læstur."
       signed_up_but_unconfirmed: Staðfestingartengill hefur verið sendur á netfangið þitt. Vinsamlegast smelltu á tengilinn til að virkja aðganginn.
       update_needs_confirmation: "Aðgangurinn þinn hefur verið uppfærður, en þú þarft að staðfesta netfangið þitt. Vinsamlegast skoðaðu tölvupóstinn þinn og smelltu á staðfestingartengilinn til þess að staðfesta netfangið."
       updated: Aðgangurinn þinn hefur verið uppfærður.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: ""
     sessions:
       already_signed_out: Útskráning tókst.
       new:
@@ -133,7 +133,7 @@ is:
       new:
         resend_unlock_instructions: Endursenda leiðbeiningar aflæsingar
       send_instructions: Innan nokkurra mínútna færðu tölvupóst með leiðbeiningum um hvernig hægt er að aflæsa aðgangi þínum.
-      send_paranoid_instructions: Ef aðgangurinn þinn er til munt þú fá leiðbeiningar um hvernig hægt er að aflæsa honum sendar í tölvupósti innan nokkurra mínútna.
+      send_paranoid_instructions: "Ef aðgangurinn þinn er til munt þú fá leiðbeiningar um hvernig hægt er að aflæsa honum sendar í tölvupósti innan nokkurra mínútna."
       unlocked: Aðgangnum þínum hefur verið aflæst. Þú ert innskráð(ur).
   errors:
     messages:

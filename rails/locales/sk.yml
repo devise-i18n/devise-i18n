@@ -27,10 +27,10 @@ sk:
         updated_at: Aktualizované
     models:
       user:
-        one:
-        few:
-        many:
-        other:
+        one: ''
+        few: ''
+        many: ''
+        other: ''
   devise:
     confirmations:
       confirmed: Váš účet bol úspešne overený. Teraz ste prihlásený.
@@ -57,7 +57,7 @@ sk:
       email_changed:
         greeting: "Ahoj %{recipient}!"
         message: "Kontaktujeme Vás aby sme Vám oznámili, že Váš e-mail bol zmenený na %{email}."
-        message_unconfirmed:
+        message_unconfirmed: ""
         subject: Email bol zmenený
       password_change:
         greeting: "Ahoj %{recipient}!"
@@ -87,7 +87,7 @@ sk:
         new_password: Nové heslo
       new:
         forgot_your_password: "Zabudli ste heslo?"
-        send_me_reset_password_instructions: Pošlite mi inštrukcie na obnovu hesla
+        send_me_reset_password_instructions: ""
       no_token: "Túto stránku nemôžete navštíviť pokiaľ neprichádzate z emailu s inštrukciami na obnovu hesla. Ak z neho prichádzate, prosím uistite sa, že ste použili z odkazu celú adresu (URL)."
       send_instructions: O niekoľko minút dostanete email s inštrukciami ako nastaviť nové heslo.
       send_paranoid_instructions: "Ak sa váš email nachádza v našej databáze, o niekoľko minút dostanete na svoju emailovú adresu odkaz na obnovu hesla."
@@ -101,7 +101,7 @@ sk:
         currently_waiting_confirmation_for_email: 'Momentálne sa čaká na potvrdenie pre: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: nechajte prázdne ak to nechcete zmeniť
         title: "Upraviť %{resource}"
-        unhappy: Nešťastný
+        unhappy: "Nešťastný"
         update: Aktualizovať
         we_need_your_current_password_to_confirm_your_changes: na potvrdenie vašich zmien potrebujeme vaše súčasné heslo
       new:
@@ -112,7 +112,7 @@ sk:
       signed_up_but_unconfirmed: "Správa s potvrdzovacím odkazom bola odoslaná na vašu emailovú adresu. Aby ste aktivovali váš účet, prosím otvorte odkaz.."
       update_needs_confirmation: "Váš účet bol úspešne aktualizovaný ale potrebujeme overiť vašu novú emailovú adresu. Prosím skontrolujte si email a kliknite na potvrdzovací odkaz, aby ste potvrdili novú emailovú adresu."
       updated: Úspešne ste aktualizovali váš účet.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: ""
     sessions:
       already_signed_out: Úspešne odhlásený.
       new:
@@ -129,10 +129,10 @@ sk:
         sign_in_with_provider: "Prihlásiť sa cez %{provider}"
         sign_up: Zaregistrovať sa
       minimum_password_length:
-        one:
-        few:
-        many:
-        other:
+        one: ""
+        few: ""
+        many: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Poslať znovu inštrukcie na odomknutie účtu
@@ -147,7 +147,7 @@ sk:
       not_found: nenájdený
       not_locked: nebol zamknutý
       not_saved:
-        one:
-        few:
-        many:
-        other:
+        one: ''
+        few: ""
+        many: ""
+        other: ""

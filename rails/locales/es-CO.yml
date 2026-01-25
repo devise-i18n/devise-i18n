@@ -1,4 +1,4 @@
-es-CO:
+es_CO:
   activerecord:
     attributes:
       user:
@@ -27,9 +27,9 @@ es-CO:
         updated_at: Fecha de actualización
     models:
       user:
-        one:
-        many:
-        other:
+        one: ''
+        many: ''
+        other: ''
   devise:
     confirmations:
       confirmed: Tu dirección de correo electrónico se ha confirmado correctamente.
@@ -86,7 +86,7 @@ es-CO:
         new_password: Contraseña nueva
       new:
         forgot_your_password: "¿Ha olvidado su contraseña?"
-        send_me_reset_password_instructions: Enviarme instrucciones para restablecer la contraseña
+        send_me_reset_password_instructions: ""
       no_token: "No puedes acceder a esta página si no es a través de un enlace para restablecer tu contraseña. Si has llegado hasta aquí desde el correo para restablecer tu contraseña, por favor asegúrese de que la URL introducida está completa."
       send_instructions: En unos minutos recibirás un correo con instrucciones sobre cómo restablecer tu contraseña.
       send_paranoid_instructions: "Si tu correo existe en nuestra base de datos, recibirás un correo electrónico con instrucciones sobre cómo restablecer tu contraseña."
@@ -100,7 +100,7 @@ es-CO:
         currently_waiting_confirmation_for_email: 'Actualmente esperando la confirmación de: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: dejar en blanco si no desea cambiarlo
         title: "Editar %{resource}"
-        unhappy: No se encuentra feliz
+        unhappy: "No se encuentra feliz"
         update: Actualizar
         we_need_your_current_password_to_confirm_your_changes: necesitamos su contraseña actual para confirmar los cambios
       new:
@@ -128,9 +128,9 @@ es-CO:
         sign_in_with_provider: "Iniciar sesión con %{provider}"
         sign_up: Registrarse
       minimum_password_length:
-        one:
-        many:
-        other:
+        one: ""
+        many: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instrucciones para desbloquear la cuenta
@@ -141,10 +141,10 @@ es-CO:
     messages:
       already_confirmed: "ya fue confirmada, por favor intenta iniciar sesión"
       confirmation_period_expired: "necesita confirmarse dentro de %{period}, por favor solicita una nueva"
-      expired: ha expirado; por favor solicita una nueva
+      expired: "ha expirado; por favor solicita una nueva"
       not_found: no se encontró
       not_locked: no se encuentra bloqueada
       not_saved:
-        one:
-        many:
-        other:
+        one: ''
+        many: ""
+        other: ""

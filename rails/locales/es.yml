@@ -27,9 +27,9 @@ es:
         updated_at: Actualizado en
     models:
       user:
-        one:
-        many:
-        other:
+        one: ''
+        many: ''
+        other: ''
   devise:
     confirmations:
       confirmed: Tu cuenta ha sido confirmada satisfactoriamente.
@@ -86,7 +86,7 @@ es:
         new_password: Nueva contraseña
       new:
         forgot_your_password: "¿Ha olvidado su contraseña?"
-        send_me_reset_password_instructions: Envíeme las instrucciones para resetear mi contraseña
+        send_me_reset_password_instructions: ""
       no_token: "No puedes acceder a esta página si no es a través de un enlace para resetear tu contraseña. Si has llegado hasta aquí desde el email para resetear tu contraseña, por favor asegúrate de que la URL introducida está completa."
       send_instructions: Recibirás un correo con instrucciones sobre cómo resetear tu contraseña en unos pocos minutos.
       send_paranoid_instructions: "Si tu correo existe en nuestra base de datos, recibirás un correo con instrucciones sobre cómo resetear tu contraseña en tu bandeja de entrada."
@@ -128,9 +128,9 @@ es:
         sign_in_with_provider: "Iniciar sesión con %{provider}"
         sign_up: Registrarse
       minimum_password_length:
-        one:
-        many:
-        other:
+        one: ""
+        many: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instrucciones para desbloquear
@@ -145,6 +145,6 @@ es:
       not_found: no se ha encontrado
       not_locked: no estaba bloqueada
       not_saved:
-        one:
-        many:
-        other:
+        one: ''
+        many: ""
+        other: ""

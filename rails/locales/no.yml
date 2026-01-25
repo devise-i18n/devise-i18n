@@ -35,14 +35,14 @@
       new:
         resend_confirmation_instructions: Send nye bekreftelsesinstruksjoner
       send_instructions: Du vil innen få minutter motta en epost med instruksjoner for å aktivere din konto.
-      send_paranoid_instructions: Hvis epostadressen din finnes i vår database vil du innen få minutter motta en epost med instruksjoner for å aktivere din konto.
+      send_paranoid_instructions: "Hvis epostadressen din finnes i vår database vil du innen få minutter motta en epost med instruksjoner for å aktivere din konto."
     failure:
       already_authenticated: Du er allerede logget inn.
       inactive: Din konto er ikke aktivert enda.
-      invalid:
+      invalid: ""
       last_attempt: Du har et forsøk til før din konto blir låst.
       locked: Din konto er låst.
-      not_found_in_database:
+      not_found_in_database: ""
       timeout: Din sesjon er utløpt. Logg inn igjen for å kunne fortsette.
       unauthenticated: Du må logge inn eller registrere deg for å kunne fortsette.
       unconfirmed: Du må bekrefte kontoen din for å kunne fortsette.
@@ -54,9 +54,9 @@
         subject: Bekreftelsesinstruksjoner
       email_changed:
         greeting: "Hei %{recipient}!"
-        message:
-        message_unconfirmed:
-        subject:
+        message: ""
+        message_unconfirmed: ""
+        subject: ""
       password_change:
         greeting: "Hallo %{recipient}!"
         message: Vi kontakter deg for å meddele at ditt passord har blitt endret.
@@ -85,10 +85,10 @@
         new_password: Nytt passord
       new:
         forgot_your_password: "Glemt passord?"
-        send_me_reset_password_instructions: Send meg instruksjoner for å sette nytt passord
+        send_me_reset_password_instructions: ""
       no_token: "Du kan ikke aksessere denne siden uten å bli videresendt fra en epost med intrukssjoner for å tilbakestille passord. Hvis dette er tilfelle, vennligst sørg for at du brukte hele lenken inneholdt i eposten."
       send_instructions: Du vil innen få minutter motta en epost med instruksjoner for å nullstille passordet ditt.
-      send_paranoid_instructions: Hvis epostadressen din finnes i vår database vil du innen få minutter motta en epost med instruksjoner for å nullstille passordet ditt.
+      send_paranoid_instructions: "Hvis epostadressen din finnes i vår database vil du innen få minutter motta en epost med instruksjoner for å nullstille passordet ditt."
       updated: Ditt passord er endret og du er nå innlogget.
       updated_not_active: Ditt passord er endret.
     registrations:
@@ -105,12 +105,12 @@
       new:
         sign_up: Opprett konto
       signed_up: Velkommen! Din registrering er vellykket.
-      signed_up_but_inactive: Du er registrert. Vi kan derimot ikke logge deg på siden kontoen din ennå ikke er aktivert.
-      signed_up_but_locked: Du er registrert. Vi kan derimot ikke logge deg på siden kontoen din er låst.
+      signed_up_but_inactive: "Du er registrert. Vi kan derimot ikke logge deg på siden kontoen din ennå ikke er aktivert."
+      signed_up_but_locked: "Du er registrert. Vi kan derimot ikke logge deg på siden kontoen din er låst."
       signed_up_but_unconfirmed: En epost med en aktiveringslink er sent til din epostadresse.  Vennligst klikk på linken for å aktivere din konto.
       update_needs_confirmation: "Din profil er oppdatert, men vi trenger å bekrefte din nye epost-adresse. Vennligst sjekk din innboks og klikk på lenken inneholdt i eposten for å bekrefte endring av din epost-adresse."
       updated: Din profil er oppdatert.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: ""
     sessions:
       already_signed_out: Logget ut
       new:
@@ -127,13 +127,13 @@
         sign_in_with_provider: "Logg inn med %{provider}"
         sign_up: Opprett konto
       minimum_password_length:
-        one:
-        other:
+        one: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Send nye aktiveringsinstruksjoner
       send_instructions: Du vil innen få minutter motta en epost med instruksjoner for å gjenåpne din konto.
-      send_paranoid_instructions: Hvis kontoen din eksisterer vil du innen få minutter motta en epost med instruksjoner for å låse den opp.
+      send_paranoid_instructions: "Hvis kontoen din eksisterer vil du innen få minutter motta en epost med instruksjoner for å låse den opp."
       unlocked: Din konto er gjenåpnet. Vennligst logg inn for å fortsette.
   errors:
     messages:

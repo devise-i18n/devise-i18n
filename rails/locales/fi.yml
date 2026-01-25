@@ -85,7 +85,7 @@ fi:
         new_password: Uusi salasana
       new:
         forgot_your_password: "Unohditko salasanasi?"
-        send_me_reset_password_instructions: Lähetä minulle salasanan vaihto-ohjeet
+        send_me_reset_password_instructions: ""
       no_token: "Et voi päästä tälle sivulle tulematta salasanannollaussähköpostin kautta. Mikäli tulet salasanannollaussähköpostiviestistä, varmista että syötit koko verkko-osoitteen osoiteriville."
       send_instructions: Saat hetken kuluttua sähköpostiisi ohjeet salasanan vaihtoon.
       send_paranoid_instructions: "Mikäli sähköpostiosoitteesi on tallennettu järjestelmäämme, lähetämme salasananpalautuslinkin sähköpostiisi muutaman minuutin kuluessa."
@@ -105,7 +105,7 @@ fi:
       new:
         sign_up: Rekisteröidy
       signed_up: Tervetuloa! Rekisteröintisi onnistui.
-      signed_up_but_inactive: Olet rekisteröitynyt onnistuneesti. Et kuitenkaan voi kirjautua ennen kuin käyttäjätunnuksesi on aktivoitu.
+      signed_up_but_inactive: "Olet rekisteröitynyt onnistuneesti. Et kuitenkaan voi kirjautua ennen kuin käyttäjätunnuksesi on aktivoitu."
       signed_up_but_locked: "Olet rekisteröitynyt onnistuneesti. Et kuitenkaan voi kirjautua, koska käyttäjätunnuksesi on lukittu."
       signed_up_but_unconfirmed: Sähköpostiisi on lähetetty vahvistusviesti. Avaa viestissä oleva linkki aktivoidaksesi käyttäjätunnuksesi.
       update_needs_confirmation: "Tiedot päivitettiin onnistuneesti, mutta meidän täytyy vielä varmistaa uusi sähköpostiosoitteesi. Tarkista sähköpostisi ja klikkaa varmistuslinkkiä varmistaaksesi uuden sähköpostiosoitteesti."

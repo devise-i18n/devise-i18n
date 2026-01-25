@@ -27,6 +27,9 @@ appraise "ruby-3.1" do
   gem "rdoc", "< 7"
 end
 
+appraise "ruby-3.2" do
+end
+
 appraise "ruby-3.3" do
 end
 

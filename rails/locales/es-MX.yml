@@ -1,4 +1,4 @@
-es-MX:
+es_MX:
   activerecord:
     attributes:
       user:
@@ -27,9 +27,9 @@ es-MX:
         updated_at: Fecha de actualización
     models:
       user:
-        one:
-        many:
-        other:
+        one: ''
+        many: ''
+        other: ''
   devise:
     confirmations:
       confirmed: Se ha confirmado la dirección de correo electrónico correctamente.
@@ -128,9 +128,9 @@ es-MX:
         sign_in_with_provider: "Iniciar sesión con %{provider}"
         sign_up: Registrarse
       minimum_password_length:
-        one:
-        many:
-        other:
+        one: ""
+        many: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instrucciones para desbloquear la cuenta
@@ -145,6 +145,6 @@ es-MX:
       not_found: no se encontró
       not_locked: no se encuentra bloqueada
       not_saved:
-        one:
-        many:
-        other:
+        one: ''
+        many: ""
+        other: ""

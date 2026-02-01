@@ -27,10 +27,10 @@ sk:
         updated_at: Aktualizované
     models:
       user:
-        one:
-        few:
-        many:
-        other:
+        one: ''
+        few: ''
+        many: ''
+        other: ''
   devise:
     confirmations:
       confirmed: Váš účet bol úspešne overený. Teraz ste prihlásený.
@@ -57,7 +57,7 @@ sk:
       email_changed:
         greeting: "Ahoj %{recipient}!"
         message: "Kontaktujeme Vás aby sme Vám oznámili, že Váš e-mail bol zmenený na %{email}."
-        message_unconfirmed:
+        message_unconfirmed: ""
         subject: Email bol zmenený
       password_change:
         greeting: "Ahoj %{recipient}!"
@@ -112,7 +112,7 @@ sk:
       signed_up_but_unconfirmed: "Správa s potvrdzovacím odkazom bola odoslaná na vašu emailovú adresu. Aby ste aktivovali váš účet, prosím otvorte odkaz.."
       update_needs_confirmation: "Váš účet bol úspešne aktualizovaný ale potrebujeme overiť vašu novú emailovú adresu. Prosím skontrolujte si email a kliknite na potvrdzovací odkaz, aby ste potvrdili novú emailovú adresu."
       updated: Úspešne ste aktualizovali váš účet.
-      updated_but_not_signed_in:
+      updated_but_not_signed_in: ""
     sessions:
       already_signed_out: Úspešne odhlásený.
       new:
@@ -129,10 +129,10 @@ sk:
         sign_in_with_provider: "Prihlásiť sa cez %{provider}"
         sign_up: Zaregistrovať sa
       minimum_password_length:
-        one:
-        few:
-        many:
-        other:
+        one: ""
+        few: ""
+        many: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Poslať znovu inštrukcie na odomknutie účtu
@@ -147,7 +147,7 @@ sk:
       not_found: nenájdený
       not_locked: nebol zamknutý
       not_saved:
-        one:
-        few:
-        many:
-        other:
+        one: ''
+        few: ""
+        many: ""
+        other: ""

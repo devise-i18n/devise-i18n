@@ -27,9 +27,9 @@ it:
         updated_at: Aggiornato il
     models:
       user:
-        one:
-        many:
-        other:
+        one: ''
+        many: ''
+        other: ''
   devise:
     confirmations:
       confirmed: Il tuo account è stato correttamente confermato.
@@ -56,7 +56,7 @@ it:
       email_changed:
         greeting: "Ciao %{recipient}!"
         message: "Ti stiamo contattando per notificarti che la tua email è stata cambiata in %{email}."
-        message_unconfirmed:
+        message_unconfirmed: ""
         subject: Email modificata
       password_change:
         greeting: "Ciao %{recipient}!"
@@ -128,9 +128,9 @@ it:
         sign_in_with_provider: "Accedi con %{provider}"
         sign_up: Registrati
       minimum_password_length:
-        one:
-        many:
-        other:
+        one: ""
+        many: ""
+        other: ""
     unlocks:
       new:
         resend_unlock_instructions: Invia di nuovo le istruzioni per lo sblocco
@@ -145,6 +145,6 @@ it:
       not_found: non trovato
       not_locked: non era bloccato
       not_saved:
-        one:
-        many:
-        other:
+        one: ''
+        many: ""
+        other: ""

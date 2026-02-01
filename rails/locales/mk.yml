@@ -55,7 +55,7 @@ mk:
       email_changed:
         greeting: "Здраво %{recipient}!"
         message: "Ве контактираме за да Ве известиме дека Вашата е-маил адреса е заменета со %{email}."
-        message_unconfirmed:
+        message_unconfirmed: ""
         subject: Промена на е-маил
       password_change:
         greeting: "Здраво %{recipient}!"

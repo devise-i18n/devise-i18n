@@ -107,7 +107,7 @@ pt-BR:
         sign_up: Inscrever-se
       signed_up: Bem vindo! Você realizou seu registro com sucesso.
       signed_up_but_inactive: "Você se inscreveu com sucesso, porém nós não podemos autenticá-lo porque sua conta ainda não foi ativada."
-      signed_up_but_locked: Você se inscreveu com sucesso. Porém nós não podemos autenticá-lo porque sua conta está bloqueada.
+      signed_up_but_locked: "Você se inscreveu com sucesso. Porém nós não podemos autenticá-lo porque sua conta está bloqueada."
       signed_up_but_unconfirmed: "Uma mensagem com um link de confirmação foi enviada para o seu e-mail. Por favor, acesse o link para ativar sua conta."
       update_needs_confirmation: "Sua conta foi atualizada com sucesso, mas nós precisamos verificar o novo endereço de email. Por favor, verifique seu e-mail e clique no link de confirmação para finalizar confirmando o seu novo e-mail."
       updated: A sua conta foi atualizada com sucesso.
@@ -139,7 +139,7 @@ pt-BR:
       unlocked: A sua conta foi desbloqueada com sucesso. Efetue login para continuar.
   errors:
     messages:
-      already_confirmed: já foi confirmado
+      already_confirmed: "já foi confirmado"
       confirmation_period_expired: "É necessário ser confirmado dentro do período %{period}, por favor requisite um novo usuário."
       expired: "expirou, por favor solicite uma nova"
       not_found: não encontrado

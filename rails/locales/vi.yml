@@ -98,14 +98,14 @@ vi:
         currently_waiting_confirmation_for_email: 'Đang đợi xác nhận tài khoản email: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: để trống nếu bạn không muốn thay đổi mật khẩu
         title: "Cập nhật %{resource}"
-        unhappy: Không hài lòng
+        unhappy: "Không hài lòng"
         update: Cập nhật
         we_need_your_current_password_to_confirm_your_changes: we need your current password to confirm your changes
       new:
         sign_up: Đăng ký
       signed_up: Xin chào! Bạn đã đăng ký thành công.
       signed_up_but_inactive: "Bạn đã đăng ký thành công. Tuy nhiên, bạn cần phải kích hoạt tài khoản trước khi có thể đăng nhập được."
-      signed_up_but_locked: Bạn đã đăng ký thành công. Tuy nhiên tài khoản của bạn đã bị khóa nên không thể đăng nhập được.
+      signed_up_but_locked: "Bạn đã đăng ký thành công. Tuy nhiên tài khoản của bạn đã bị khóa nên không thể đăng nhập được."
       signed_up_but_unconfirmed: Một email chứa đường dẫn xác nhận tài khoản đã được gửi cho bạn. Bạn vui lòng kiểm tra email.
       update_needs_confirmation: "Tài khoản của bạn được cập nhật thành công, nhưng bạn cần xác nhận địa chỉ email mới. Vui lòng kiểm tra email và nhấn vào đường dẫn xác nhận tài khoản để hoàn tất việc thay đổi địa chỉ email."
       updated: Cập nhật tài khoản thành công.

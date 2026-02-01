@@ -99,7 +99,7 @@ ca:
         currently_waiting_confirmation_for_email: 'Esperant confirmació de: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: deixa'l en blanc si no el vols canviar
         title: "Editar %{resource}"
-        unhappy: Descontent
+        unhappy: "Descontent"
         update: Actualitzar
         we_need_your_current_password_to_confirm_your_changes: necessitem la teva contrasenya actual per a confirmar els canvis
       new:
@@ -137,7 +137,7 @@ ca:
       unlocked: El teu compte ha estat desbloquejat correctament. S'ha iniciat la sessió.
   errors:
     messages:
-      already_confirmed: ja està confirmat
+      already_confirmed: "ja està confirmat"
       confirmation_period_expired: "necessita ser confirmat en %{period}, si us plau demana'n un de nou"
       expired: "ha caducat, si us plau demana'n un de nou"
       not_found: no s'ha trobat

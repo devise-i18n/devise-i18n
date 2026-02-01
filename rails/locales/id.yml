@@ -85,7 +85,7 @@ id:
       new:
         forgot_your_password: "Lupa password?"
         send_me_reset_password_instructions: Kirimkan instruksi untuk mereset password
-      no_token: Tidak dapat mengakses halaman tanpa password dari email. Pstikan Anda menggunakan tautan yang benar di email Reset Password.
+      no_token: "Tidak dapat mengakses halaman tanpa password dari email. Pstikan Anda menggunakan tautan yang benar di email Reset Password."
       send_instructions: Anda akan menerima e-mail berisi instruksi untuk melakukan reset password beberapa menit lagi.
       send_paranoid_instructions: "Jika email Anda terdaftar di basis data kami, Anda akan menerima recovery link di email Anda dalam beberapa menit."
       updated: Password Anda telah berhasil diubah dan tetap masuk di dalam sistem.
@@ -135,7 +135,7 @@ id:
       unlocked: Akun anda telah berhasil dibuka kembali. Anda telah sign in.
   errors:
     messages:
-      already_confirmed: sudah di konfirmasi
+      already_confirmed: "sudah di konfirmasi"
       confirmation_period_expired: "harus dikonfirmasi dalam %{period}, tolong pesan lagi"
       expired: "telah kadaluarsa, tolong pesan lagi"
       not_found: tidak ditemukan

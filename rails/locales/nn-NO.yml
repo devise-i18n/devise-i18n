@@ -99,7 +99,7 @@ nn-NO:
         currently_waiting_confirmation_for_email: 'Ventar stadfesting frå: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: la stå tomt dersom du ikkje ønskjer å endre
         title: "Rediger %{resource}"
-        unhappy: Ikkje nøgd
+        unhappy: "Ikkje nøgd"
         update: Oppdater
         we_need_your_current_password_to_confirm_your_changes: vi treng ditt noverande passord for å stadfeste endringar
       new:

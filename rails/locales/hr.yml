@@ -36,7 +36,7 @@ hr:
       new:
         resend_confirmation_instructions: Ponovno pošalji upute za potvrdu
       send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za potvrdu Vašeg računa.
-      send_paranoid_instructions: Ukoliko se Vaša email adresa nalazi u našoj bazi u roku od nekoliko minuta ćete primiti mail s uputama kako potvrditi Vaš račun.
+      send_paranoid_instructions: "Ukoliko se Vaša email adresa nalazi u našoj bazi u roku od nekoliko minuta ćete primiti mail s uputama kako potvrditi Vaš račun."
     failure:
       already_authenticated: Već ste prijavljeni.
       inactive: Vaš račun još nije aktiviran.
@@ -87,7 +87,7 @@ hr:
       new:
         forgot_your_password: "Zaboravi ste lozinku?"
         send_me_reset_password_instructions: Pošaljite mi upute za promjenu lozinke
-      no_token: Ne možete pristupiti ovoj stranici ako niste kliknuli na link u emailu za resetiranje lozinke.
+      no_token: "Ne možete pristupiti ovoj stranici ako niste kliknuli na link u emailu za resetiranje lozinke."
       send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za promjenu Vaše lozinke.
       send_paranoid_instructions: "Ukoliko se Vaša email adresa nalazi u našoj bazi, na istu ćete u roku od nekoliko minuta primiti link za resetiranje lozinke."
       updated: Vaša lozinka je uspješno promjenjena. Sad ste prijavljeni.
@@ -107,7 +107,7 @@ hr:
         sign_up: Registracija
       signed_up: Dobrodošli! Uspješno ste se registrirali.
       signed_up_but_inactive: "Uspješno ste se registrirali. Doduše, ne možete se prijaviti u sustav zato što Vaš račun još nije aktiviran."
-      signed_up_but_locked: Uspješno ste se registrirali. Nažalost ne možete se prijaviti jer Vam je račun zaključan.
+      signed_up_but_locked: "Uspješno ste se registrirali. Nažalost ne možete se prijaviti jer Vam je račun zaključan."
       signed_up_but_unconfirmed: Poruka s linkom za potvrdu je poslana na Vašu e-mail adresu. Molimo kliknite na link da aktivirate Vaš račun.
       update_needs_confirmation: "Uspješno ste ažurirali Vaš račun, ali trebamo potvrditi Vašu novu e-mail adresu. Molimo provjerite svoje sanduče i kliknite na link za potvrdu."
       updated: Uspješno ste izmjenili Vaš račun.

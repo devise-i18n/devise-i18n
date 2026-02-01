@@ -85,7 +85,7 @@ yo:
         new_password: Aṣínà tuntun
       new:
         forgot_your_password: "Ṣé o gbàgbé aṣínà rẹ? "
-        send_me_reset_password_instructions: "Fi ṣàtúntò aṣínà ìtọ́sọ́nà ránṣẹ́\n"
+        send_me_reset_password_instructions: Fi ṣàtúntò aṣínà ìtọ́sọ́nà ránṣẹ́
       no_token: "O ko le wọlé síí ìwé yii láì se nípasẹ̀ àtúntò í-meèlì aṣínà re. Tí o bá wá láti aṣínà àtúntò í-meèlì, jọ̀wọ́ rii dáni loju pé o lo URL tí a pèsè"
       send_instructions: O gba í-meèlì pelu àlàyé bí o se le ṣàtúntò aṣínà rẹ ní ìṣẹ́jú díẹ̀
       send_paranoid_instructions: "Ti àdírẹ́ẹ̀sì í-meèlì rẹ ba wà ní àkójọpọ̀ data wa, ìwọ yóò gba ìtọ́kasí aṣínà ní í-meèlì rẹ ní ìṣẹ́jú díẹ̀"

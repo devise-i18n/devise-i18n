@@ -99,7 +99,7 @@ hu:
         currently_waiting_confirmation_for_email: 'Még várjuk a következő e-mail cím megerősítését: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: csak változás esetén kitöltendő
         title: "%{resource} módosítása"
-        unhappy: Szomorú
+        unhappy: "Szomorú"
         update: Módosítás
         we_need_your_current_password_to_confirm_your_changes: a változtatás végrehajtásához szükséges a jelenlegi jelszó
       new:
@@ -137,7 +137,7 @@ hu:
       unlocked: A felhasználói fiók zárolása megszűnt. Bejelentkezve a felhasználói fiókba.
   errors:
     messages:
-      already_confirmed: már meg van erősítve
+      already_confirmed: "már meg van erősítve"
       confirmation_period_expired: "%{period} letelte előtt kell megerősíteni, igényelj egy újat"
       expired: "lejárt, igényelj egy újat"
       not_found: nem található

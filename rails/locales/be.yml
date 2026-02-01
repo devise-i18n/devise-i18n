@@ -67,7 +67,7 @@ be:
         action: Змяніць пароль
         greeting: "Прывітанні, %{recipient}!"
         instruction: "Вы (ці нехта яшчэ) запыталі змену пароля. Для змены пароля націсніце спасылку ніжэй:"
-        instruction_2: Калі вы не запытвалі змену пароля - праігнаруйце гэта паведамленне
+        instruction_2: "Калі вы не запытвалі змену пароля - праігнаруйце гэта паведамленне"
         instruction_3: Ваш пароль не зменіцца пакуль вы не націснеце на спасылку і не ўведзяце новы.
         subject: Інструкцыі па аднаўленні пароля
       unlock_instructions:
@@ -101,7 +101,7 @@ be:
         currently_waiting_confirmation_for_email: 'Чакаецца пацверджанне адрасаE-mail: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: "пакіньце крысу пустым, калі не хочаце яго змяняць"
         title: "Рэдагаваць %{resource}"
-        unhappy: Расчараваны
+        unhappy: "Расчараваны"
         update: Абнавіць
         we_need_your_current_password_to_confirm_your_changes: увядзіце бягучы пароль для пацверджання змен
       new:

@@ -101,7 +101,7 @@ pl:
         currently_waiting_confirmation_for_email: 'Aktualnie oczekujemy na potwierdzenie z: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: "pozostaw puste, jeśli nie chcesz wprowadzać zmian"
         title: "Edytuj %{resource}"
-        unhappy: Niezadowolony
+        unhappy: "Niezadowolony"
         update: Aktualizuj
         we_need_your_current_password_to_confirm_your_changes: "potrzebujemy Twojego bieżącego hasła, aby potwierdzić zmiany"
       new:

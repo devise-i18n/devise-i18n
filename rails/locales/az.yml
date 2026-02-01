@@ -106,7 +106,7 @@ az:
         sign_up: Qeydiyyat
       signed_up: Təbriklər! Siz uğurla qeydiyyatdan keçdiniz.
       signed_up_but_inactive: "Siz uğurla qeydiyyatdan keçdiniz. Halbuki, sistemə yalnız hesabınızı aktiv etdikdən sonra daxil ola bilərsiniz."
-      signed_up_but_locked: Siz uğurla qeydiyyatdan keçdiniz. Ancaq hesabınız blokda olduğu üçün biz sizi sistemə daxil edə bilmirik.
+      signed_up_but_locked: "Siz uğurla qeydiyyatdan keçdiniz. Ancaq hesabınız blokda olduğu üçün biz sizi sistemə daxil edə bilmirik."
       signed_up_but_unconfirmed: Təstiq linkini özündə saxlayan məktub sizə email vasitəsiylə göndərildi. Hesabınızı aktivləşdirmək üçün zəhmət olmasa linki açın.
       update_needs_confirmation: "Hesabınızı uğurla yenilədiniz, ancaq biz sizin email ünvanınızı yoxlamalıyıq. Zəhmət olmasa email qutunuzu yoxlayın və təstiq linkinə daxil olaraq yeni email ünvanınızı təstiqləyin."
       updated: Hesabınızı uğurla yenilədiniz.

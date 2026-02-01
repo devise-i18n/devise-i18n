@@ -99,7 +99,7 @@ nl:
         currently_waiting_confirmation_for_email: 'Aan het wachten op de bevestiging voor: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: laat leeg als je het niet wilt wijzigen
         title: "Bewerk %{resource}"
-        unhappy: Niet blij
+        unhappy: "Niet blij"
         update: Bijwerken
         we_need_your_current_password_to_confirm_your_changes: we hebben je huidige wachtwoord nodig om je veranderingen te bevestigen
       new:
@@ -137,7 +137,7 @@ nl:
       unlocked: Je account is ontgrendeld. Je kan nu weer inloggen.
   errors:
     messages:
-      already_confirmed: is reeds bevestigd
+      already_confirmed: "is reeds bevestigd"
       confirmation_period_expired: "moet binnen %{period} worden bevestigd, plaats a.u.b. een nieuw verzoek"
       expired: "is verlopen, vraag een nieuwe aan"
       not_found: niet gevonden

@@ -99,14 +99,14 @@ af:
         currently_waiting_confirmation_for_email: 'Wag tans bevestiging vir: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: los skoon indien jy dit nie wil verander nie
         title: "Wysig %{resource}"
-        unhappy: Ongelukkig
+        unhappy: "Ongelukkig"
         update: Opdateer
         we_need_your_current_password_to_confirm_your_changes: ons benodig jou huidige wagwoord om jou veranderinge te bevestig
       new:
         sign_up: Teken in
       signed_up: Welkom! Jy het suksesvol ingeteken.
-      signed_up_but_inactive: Jy het suksesvol ingeteken. Ons kon jou wel nie inteken nie omdat jou rekening nog nie geaktiveer is nie.
-      signed_up_but_locked: Jy het suksesvol ingeteken. Ons kon jou wel nie inteken nie omdat jou rekening gesluit is.
+      signed_up_but_inactive: "Jy het suksesvol ingeteken. Ons kon jou wel nie inteken nie omdat jou rekening nog nie geaktiveer is nie."
+      signed_up_but_locked: "Jy het suksesvol ingeteken. Ons kon jou wel nie inteken nie omdat jou rekening gesluit is."
       signed_up_but_unconfirmed: "'n Boodskap met 'n bevestigingsskakel was gestuur na jou e-posadres. Volg asseblief die skakel om jou rekening te aktiveer."
       update_needs_confirmation: "Jy het jou rekening suksesvol opgedateer, maar ons moet eerst jou nuwe e-posadres verifieer. Kyk asseblief na jou e-posse en volg die bevestigingsskakel om jou nuwe e-posadres te bevestig."
       updated: Jou rekening was suksesvol opgedateer.

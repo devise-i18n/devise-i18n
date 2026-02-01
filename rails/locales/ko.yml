@@ -34,7 +34,7 @@ ko:
       new:
         resend_confirmation_instructions: 인증 안내 재발송
       send_instructions: 이메일로 이메일 주소 인증 안내가 발송되었습니다.
-      send_paranoid_instructions: 이메일 주소가 존재한다면 메일로 인증 안내 메일을 받을 수 있습니다.
+      send_paranoid_instructions: "이메일 주소가 존재한다면 메일로 인증 안내 메일을 받을 수 있습니다."
     failure:
       already_authenticated: 이미 로그인되어 있습니다.
       inactive: 계정이 아직 활성화되지 않았습니다.
@@ -64,7 +64,7 @@ ko:
         action: 비밀번호 변경
         greeting: "%{recipient}님"
         instruction: "누군가 당신의 비밀번호를 변경하는 링크를 요청했으며, 다음의 링크에서 비밀번호 변경이 가능합니다."
-        instruction_2: 비밀번호 변경을 요청하지 않으셨다면 이 메일을 무시하십시오.
+        instruction_2: "비밀번호 변경을 요청하지 않으셨다면 이 메일을 무시하십시오."
         instruction_3: 위 링크에 접속하여 새로운 비밀번호를 생성하기 전까지 귀하의 비밀번호는 변경되지 않습니다.
         subject: 비밀번호 재설정 안내
       unlock_instructions:
@@ -131,13 +131,13 @@ ko:
       new:
         resend_unlock_instructions: 계정 잠금 해제 재요청
       send_instructions: 잠시 후 이메일로 계정 잠금 해제 안내를 받아보실 수 있습니다.
-      send_paranoid_instructions: 계정이 존재한다면 메일로 계정 잠금 해제 안내를 받을 수 있습니다.
+      send_paranoid_instructions: "계정이 존재한다면 메일로 계정 잠금 해제 안내를 받을 수 있습니다."
       unlocked: 계정이 성공적으로 잠금 해제되었습니다. 새로 로그인해 주세요.
   errors:
     messages:
-      already_confirmed: 은(는) 이미 인증되었습니다. 다시 로그인 해보세요.
+      already_confirmed: "은(는) 이미 인증되었습니다. 다시 로그인 해보세요."
       confirmation_period_expired: "%{period} 이내에 이메일 인증을 해야 합니다. 새로 요청해 주세요."
-      expired: 이(가) 만료되었습니다 새로 요청해 주세요.
+      expired: "이(가) 만료되었습니다 새로 요청해 주세요."
       not_found: 찾을 수 없습니다.
       not_locked: 은(는) 잠기지 않았습니다.
       not_saved:

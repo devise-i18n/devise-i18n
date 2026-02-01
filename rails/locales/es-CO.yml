@@ -100,7 +100,7 @@ es-CO:
         currently_waiting_confirmation_for_email: 'Actualmente esperando la confirmación de: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: dejar en blanco si no desea cambiarlo
         title: "Editar %{resource}"
-        unhappy: No se encuentra feliz
+        unhappy: "No se encuentra feliz"
         update: Actualizar
         we_need_your_current_password_to_confirm_your_changes: necesitamos su contraseña actual para confirmar los cambios
       new:
@@ -141,7 +141,7 @@ es-CO:
     messages:
       already_confirmed: "ya fue confirmada, por favor intenta iniciar sesión"
       confirmation_period_expired: "necesita confirmarse dentro de %{period}, por favor solicita una nueva"
-      expired: ha expirado; por favor solicita una nueva
+      expired: "ha expirado; por favor solicita una nueva"
       not_found: no se encontró
       not_locked: no se encuentra bloqueada
       not_saved:

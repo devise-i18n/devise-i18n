@@ -99,7 +99,7 @@ bg:
         currently_waiting_confirmation_for_email: 'Очаква се потвърждение за: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: "оставете празно, ако не искате да го променяте"
         title: "Редакция на %{resource}"
-        unhappy: Недоволни
+        unhappy: "Недоволни"
         update: Обновяване
         we_need_your_current_password_to_confirm_your_changes: въведете настоящата си парола за потвърждаване на промените
       new:

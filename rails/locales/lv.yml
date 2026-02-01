@@ -100,7 +100,7 @@ lv:
         currently_waiting_confirmation_for_email: 'Pašlaik gaida apstiprinājumu epastam: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: "atstājiet tukšu šo lauku, ja nevēlaties veikt izmaiņas"
         title: "Rediģēt %{resource}"
-        unhappy: Neapmierināts
+        unhappy: "Neapmierināts"
         update: Izmainīt
         we_need_your_current_password_to_confirm_your_changes: "mums ir nepieciešama Jūsu tagadējā parole, lai veiktu izmaiņas"
       new:

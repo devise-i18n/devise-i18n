@@ -139,7 +139,7 @@ de:
     messages:
       already_confirmed: "Bereits bestätigt. Versuchen Sie, sich anzumelden."
       confirmation_period_expired: "Die Bestätigungsfrist von %{period} ist abgelaufen. Bitte erneut anfordern."
-      expired: Der Link ist abgelaufen. Bitte erneut anfordern.
+      expired: "Der Link ist abgelaufen. Bitte erneut anfordern."
       not_found: Nicht gefunden.
       not_locked: Nicht gesperrt.
       not_saved:

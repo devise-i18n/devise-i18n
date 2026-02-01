@@ -99,7 +99,7 @@ tr:
         currently_waiting_confirmation_for_email: 'Doğrulama için bekleniyor : %{email}'
         leave_blank_if_you_don_t_want_to_change_it: değiştirmek istemiyorsanız boş bırakın
         title: "%{resource} düzenle"
-        unhappy: Mutsuz
+        unhappy: "Mutsuz"
         update: Güncelle
         we_need_your_current_password_to_confirm_your_changes: değişikleri onaylamak için şu anki parolanız gerekli
       new:

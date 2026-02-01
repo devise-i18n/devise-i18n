@@ -1,4 +1,4 @@
-fr_CA:
+fr-CA:
   activerecord:
     attributes:
       user:
@@ -27,9 +27,9 @@ fr_CA:
         updated_at: Date de mise à jour
     models:
       user:
-        one: ''
-        many: ''
-        other: ''
+        one:
+        many:
+        other:
   devise:
     confirmations:
       confirmed: Votre compte a été confirmé avec succès.
@@ -128,9 +128,9 @@ fr_CA:
         sign_in_with_provider: "Connexion avec %{provider}"
         sign_up: Inscription
       minimum_password_length:
-        one: ""
-        many: ""
-        other: ""
+        one:
+        many:
+        other:
     unlocks:
       new:
         resend_unlock_instructions: Renvoyer les instructions de déblocage
@@ -145,6 +145,6 @@ fr_CA:
       not_found: n’a pas été trouvé(e)
       not_locked: n’était pas verrouillé(e)
       not_saved:
-        one: ''
-        many: ""
-        other: ""
+        one:
+        many:
+        other:

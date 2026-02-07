@@ -1,6 +1,12 @@
-## Unreleased
+## 1.16.0
 
 - Added Ruby 4.0 to test matrix.
+- Added compatibility with Devise 5.0.
+- Updated views for Devise 5.0. Any views generated into your app prior to this release of devise-i18n should continue to work. Changes from Devise are:
+  - https://github.com/heartcombo/devise/pull/5494
+  - https://github.com/heartcombo/devise/commit/d13ef89
+- Updated one English string for Devise 5.0: https://github.com/heartcombo/devise/commit/41003bf. Translations of this string are unaffected.
+- Dropped compatibility for Devise < 5.0.
 
 ## 1.15.0
 

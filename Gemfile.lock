@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    devise-i18n (1.15.0)
+    devise-i18n (1.16.0)
       devise (>= 5.0.0)
       rails-i18n
 

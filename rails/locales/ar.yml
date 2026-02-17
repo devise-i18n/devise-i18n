@@ -26,7 +26,13 @@ ar:
         unlock_token: رمز فتح القفل
         updated_at: حُدِّث في
     models:
-      user: المستخدم
+      user:
+        zero: المستخدم
+        one: المستخدم
+        two: المستخدم
+        few: المستخدم
+        many: المستخدم
+        other: المستخدم
   devise:
     confirmations:
       confirmed: أُكِّد عنوان بريدك الإلكتروني بنجاح.

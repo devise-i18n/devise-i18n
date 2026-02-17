@@ -25,7 +25,7 @@ describe 'Locale loading' do
 
     it 'loads only specified locales' do
       expected_translations = <<-EOS.gsub(/^  */, '')
-        In Arabic: تم غلق حسابك.
+        In Arabic: قُفِل حسابك.
         In Azerbajani: Sizin hesabınız bloklanmışdır.
         In Bulgarian: Translation missing: bg.devise.failure.locked
       EOS
@@ -43,7 +43,7 @@ describe 'Locale loading' do
 
     it 'loads only this locale' do
       expected_translations = <<-EOS.gsub(/^  */, '')
-        In Arabic: تم غلق حسابك.
+        In Arabic: قُفِل حسابك.
         In Azerbajani: Translation missing: az.devise.failure.locked
         In Bulgarian: Translation missing: bg.devise.failure.locked
       EOS
@@ -57,7 +57,7 @@ describe 'Locale loading' do
 
     it 'loads all locales' do
       expected_translations = <<-EOS.gsub(/^  */, '')
-        In Arabic: تم غلق حسابك.
+        In Arabic: قُفِل حسابك.
         In Azerbajani: Sizin hesabınız bloklanmışdır.
         In Bulgarian: Профилът Ви е заключен.
       EOS

@@ -36,7 +36,7 @@ bs:
       new:
         resend_confirmation_instructions:
       send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za potvrdu Vašeg računa.
-      send_paranoid_instructions: Ukoliko se Vaša email adresa nalazi u našoj bazi u roku od nekoliko minuta ćete primiti e-mail s uputama kako potvrditi Vaš račun.
+      send_paranoid_instructions: "Ukoliko se Vaša email adresa nalazi u našoj bazi u roku od nekoliko minuta ćete primiti e-mail s uputama kako potvrditi Vaš račun."
     failure:
       already_authenticated: Već ste prijavljeni.
       inactive: Vaš račun još nije aktiviran.
@@ -87,7 +87,7 @@ bs:
       new:
         forgot_your_password:
         send_me_reset_password_instructions:
-      no_token: Ne možete pristupiti ovoj stranici ako niste kliknuli na link u e-mailu za resetovanje lozinke.
+      no_token: "Ne možete pristupiti ovoj stranici ako niste kliknuli na link u e-mailu za resetovanje lozinke."
       send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za resetovanje Vaše lozinke.
       send_paranoid_instructions: "Ukoliko se Vaša e-mail adresa nalazi u našoj bazi, u roku nekoliko minuta ćete primiti link za resetovanje lozinke."
       updated: Vaša lozinka je uspješno promjenjena. Sad ste prijavljeni.

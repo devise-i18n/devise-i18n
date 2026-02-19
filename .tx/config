@@ -1,7 +1,7 @@
 [main]
-host = https://www.transifex.com
+host = https://app.transifex.com
 
-[o:devise-i18n:p:devise-i18n-1:r:enyml]
+[o:devise-i18n:p:devise-i18n-1:r:ef13182fd3b1c16e25d1daf503f472ef]
 file_filter   = rails/locales/<lang>.yml
 source_file   = rails/locales/en.yml
 type          = YML

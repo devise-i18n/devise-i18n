@@ -152,7 +152,7 @@ ar:
       not_locked: لم يُلغَ قفله.
       not_saved:
         zero: "%{count} أخطاء منعت %{resource} من الحفظ:"
-        one: "خطأ واحد منع %{resource} من الحفظ:"
+        one: 'خطأ واحد منع %{resource} من الحفظ:'
         two: "خطئان منعا %{resource} من الحفظ:"
         few: "%{count} أخطاء منعت %{resource} من الحفظ:"
         many: "%{count} خطأً منعت %{resource} من الحفظ:"

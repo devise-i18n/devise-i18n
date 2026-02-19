@@ -36,7 +36,7 @@ sr:
       new:
         resend_confirmation_instructions:
       send_instructions: U roku od nekoliko minuta primićete ePoruku sa uputstvom za potvrdu Vašeg naloga.
-      send_paranoid_instructions: Ukoliko se Vaša adresa ePošte nalazi u našoj bazi u roku od nekoliko minuta primićete ePoruku sa uputstvom kako potvrditi Vaš nalog.
+      send_paranoid_instructions: "Ukoliko se Vaša adresa ePošte nalazi u našoj bazi u roku od nekoliko minuta primićete ePoruku sa uputstvom kako potvrditi Vaš nalog."
     failure:
       already_authenticated: Već ste prijavljeni.
       inactive: Vaš nalog još nije aktiviran.
@@ -87,7 +87,7 @@ sr:
       new:
         forgot_your_password: "Zaboravljena lozinka?"
         send_me_reset_password_instructions:
-      no_token: Ne možete pristupiti ovoj stranici ako niste škljocnuli na vezu u ePoruci za resetovanje lozinke.
+      no_token: "Ne možete pristupiti ovoj stranici ako niste škljocnuli na vezu u ePoruci za resetovanje lozinke."
       send_instructions: U roku od nekoliko minuta primitićete ePoruku sa uputstvom za promenu Vaše lozinke.
       send_paranoid_instructions: "Ukoliko se Vaša adresa ePošte nalazi u našoj bazi, na istu ćete u roku od nekoliko minuta primiti link za resetovanje lozinke."
       updated: Vaša lozinka je uspešno promenjena. Sada ste prijavljeni.
@@ -107,7 +107,7 @@ sr:
         sign_up: Registruj se
       signed_up: Dobrodošli! Uspešno ste se registrovali.
       signed_up_but_inactive: "Uspešno ste se registrovali. Doduše, ne možete se prijaviti na sistem zato što Vaš nalog još nije aktiviran."
-      signed_up_but_locked: Uspešno ste se registrovali. Nažalost ne možete se prijaviti jer Vam je nalog zaključan.
+      signed_up_but_locked: "Uspešno ste se registrovali. Nažalost ne možete se prijaviti jer Vam je nalog zaključan."
       signed_up_but_unconfirmed: Poruka s linkom za potvrdu je poslata na Vašu adresu ePošte. Kliknite na vezu da aktivirate svoj nalog.
       update_needs_confirmation: "Uspešno ste ažurirali svoj nalog, ali trebamo potvrditi Vašu adresu ePošte. Proverite svoje sanduče sa porukama i kliknite na vezu za potvrdu."
       updated: Uspešno ste izmenili svoj nalog.

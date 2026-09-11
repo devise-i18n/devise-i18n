@@ -1,0 +1,147 @@
+eu:
+  activerecord:
+    attributes:
+      user:
+        confirmation_sent_at: Berrespena bidali zen unea
+        confirmation_token: Berrespen-tokena
+        confirmed_at: Berretsi zen unea
+        created_at: Sortu zen unea
+        current_password: Uneko pasahitza
+        current_sign_in_at: Azken saio-hasieraren unea
+        current_sign_in_ip: Uneko saio-hasieraren IP helbidea
+        email: Posta elektronikoa
+        encrypted_password: Zifratutako pasahitza
+        failed_attempts: Huts egindako saiakerak
+        last_sign_in_at: Aurreko saio-hasieraren unea
+        last_sign_in_ip: Aurreko saio-hasieraren IP helbidea
+        locked_at: Blokeatu zen unea
+        password: Pasahitza
+        password_confirmation: Pasahitzaren berrespena
+        remember_created_at: Gogoratzeko sortze-unea
+        remember_me: Gogoratu nazazu
+        reset_password_sent_at: Pasahitza berrezartzeko mezua bidali zen unea
+        reset_password_token: Pasahitza berrezartzeko tokena
+        sign_in_count: Saio-hasieren kopurua
+        unconfirmed_email: Berretsi gabeko posta elektronikoa
+        unlock_token: Desblokeatzeko tokena
+        updated_at: Eguneratu zen unea
+    models:
+      user:
+        one: Erabiltzailea
+        other: Erabiltzaileak
+  devise:
+    confirmations:
+      confirmed: Zure posta elektronikoaren helbidea behar bezala berretsi da.
+      new:
+        resend_confirmation_instructions: Bidali berriro berrespen-jarraibideak
+      send_instructions: Minutu gutxi barru zure posta elektronikoaren helbidea berresteko jarraibideak dituen mezu elektroniko bat jasoko duzu.
+      send_paranoid_instructions: "Zure posta elektronikoaren helbidea gure datu-basean badago, minutu gutxi barru hura berresteko jarraibideak dituen mezu elektroniko bat jasoko duzu."
+    failure:
+      already_authenticated: Saioa dagoeneko hasita duzu.
+      inactive: Zure kontua oraindik ez dago aktibatuta.
+      invalid: "%{authentication_keys} edo pasahitza ez da baliozkoa."
+      last_attempt: Saiakera bat gehiago duzu zure kontua blokeatu aurretik.
+      locked: Zure kontua blokeatuta dago.
+      not_found_in_database: "%{authentication_keys} edo pasahitza ez da baliozkoa."
+      timeout: Zure saioa iraungi da. Hasi saioa berriro jarraitzeko.
+      unauthenticated: Jarraitu aurretik saioa hasi edo izena eman behar duzu.
+      unconfirmed: Jarraitu aurretik zure posta elektronikoaren helbidea berretsi behar duzu.
+    mailer:
+      confirmation_instructions:
+        action: Berretsi nire kontua
+        greeting: "Ongi etorri, %{recipient}!"
+        instruction: 'Zure kontuko posta elektronikoa beheko estekaren bidez berrets dezakezu:'
+        subject: Berrespen-jarraibideak
+      email_changed:
+        greeting: "Kaixo, %{recipient}!"
+        message: "Zure posta elektronikoa %{email}(e)ra aldatu dela jakinarazteko idazten dizugu."
+        message_unconfirmed: "Zure posta elektronikoa %{email}(e)ra aldatzen ari dela jakinarazteko idazten dizugu."
+        subject: Posta elektronikoa aldatu da
+      password_change:
+        greeting: "Kaixo, %{recipient}!"
+        message: Zure pasahitza aldatu dela jakinarazteko idazten dizugu.
+        subject: Pasahitza aldatu da
+      reset_password_instructions:
+        action: Aldatu nire pasahitza
+        greeting: "Kaixo, %{recipient}!"
+        instruction: Norbaitek zure pasahitza aldatzeko esteka eskatu du. Beheko estekaren bidez egin dezakezu.
+        instruction_2: "Ez baduzu zuk eskatu, ez ikusi mezu elektroniko honi."
+        instruction_3: Zure pasahitza ez da aldatuko goiko estekara sartu eta berria sortu arte.
+        subject: Pasahitza berrezartzeko jarraibideak
+      unlock_instructions:
+        action: Desblokeatu nire kontua
+        greeting: "Kaixo, %{recipient}!"
+        instruction: 'Egin klik beheko estekan zure kontua desblokeatzeko:'
+        message: Zure kontua blokeatu da saioa hasteko saiakera gehiegik huts egin dutelako.
+        subject: Desblokeatzeko jarraibideak
+    omniauth_callbacks:
+      failure: "Ezin izan zaitugu %{kind}(e)tik autentifikatu, \"%{reason}\" dela eta."
+      success: "%{kind} kontuaren bidez behar bezala autentifikatu zara."
+    passwords:
+      edit:
+        change_my_password: Aldatu nire pasahitza
+        change_your_password: Aldatu zure pasahitza
+        confirm_new_password: Berretsi pasahitz berria
+        new_password: Pasahitz berria
+      new:
+        forgot_your_password: "Pasahitza ahaztu duzu?"
+        send_me_reset_password_instructions: Bidali pasahitza berrezartzeko jarraibideak
+      no_token: "Ezin duzu orri honetara sartu pasahitza berrezartzeko mezu elektroniko batetik etorri gabe. Mezu elektroniko horretatik bazatoz, ziurtatu emandako URL osoa erabili duzula."
+      send_instructions: Minutu gutxi barru zure pasahitza berrezartzeko jarraibideak dituen mezu elektroniko bat jasoko duzu.
+      send_paranoid_instructions: "Zure posta elektronikoaren helbidea gure datu-basean badago, minutu gutxi barru pasahitza berreskuratzeko esteka bat jasoko duzu bertan."
+      updated: Zure pasahitza behar bezala aldatu da. Saioa hasita duzu orain.
+      updated_not_active: Zure pasahitza behar bezala aldatu da.
+    registrations:
+      destroyed: Agur! Zure kontua behar bezala ezeztatu da. Laster berriz ikustea espero dugu.
+      edit:
+        are_you_sure: "Ziur zaude?"
+        cancel_my_account: Ezeztatu nire kontua
+        currently_waiting_confirmation_for_email: '%{email}(e)rako berrespenaren zain'
+        leave_blank_if_you_don_t_want_to_change_it: utzi hutsik aldatu nahi ez baduzu
+        title: "Editatu %{resource}"
+        unhappy: "Ez zaude gustura?"
+        update: Eguneratu
+        we_need_your_current_password_to_confirm_your_changes: zure uneko pasahitza behar dugu aldaketak berresteko
+      new:
+        sign_up: Eman izena
+      signed_up: Ongi etorri! Behar bezala eman duzu izena.
+      signed_up_but_inactive: "Behar bezala eman duzu izena. Hala ere, ezin izan dugu saioa hasi zure kontua oraindik aktibatuta ez dagoelako."
+      signed_up_but_locked: "Behar bezala eman duzu izena. Hala ere, ezin izan dugu saioa hasi zure kontua blokeatuta dagoelako."
+      signed_up_but_unconfirmed: Berrespen-esteka duen mezu bat bidali da zure posta elektronikora. Jarraitu esteka zure kontua aktibatzeko.
+      update_needs_confirmation: "Zure kontua behar bezala eguneratu duzu, baina zure posta elektronikoaren helbide berria egiaztatu behar dugu. Begiratu zure posta elektronikoa eta jarraitu berrespen-esteka helbide berria berresteko."
+      updated: Zure kontua behar bezala eguneratu da.
+      updated_but_not_signed_in: "Zure kontua behar bezala eguneratu da, baina pasahitza aldatu denez, saioa berriro hasi behar duzu."
+    sessions:
+      already_signed_out: Saioa behar bezala itxi da.
+      new:
+        sign_in: Hasi saioa
+      signed_in: Saioa behar bezala hasi da.
+      signed_out: Saioa behar bezala itxi da.
+    shared:
+      links:
+        back: Atzera
+        didn_t_receive_confirmation_instructions: "Ez dituzu berrespen-jarraibideak jaso?"
+        didn_t_receive_unlock_instructions: "Ez dituzu desblokeatzeko jarraibideak jaso?"
+        forgot_your_password: "Pasahitza ahaztu duzu?"
+        sign_in: Hasi saioa
+        sign_in_with_provider: "Hasi saioa %{provider}(e)n bidez"
+        sign_up: Eman izena
+      minimum_password_length:
+        one: "(%{count} karaktere gutxienez)"
+        other: "(%{count} karaktere gutxienez)"
+    unlocks:
+      new:
+        resend_unlock_instructions: Bidali berriro desblokeatzeko jarraibideak
+      send_instructions: Minutu gutxi barru zure kontua desblokeatzeko jarraibideak dituen mezu elektroniko bat jasoko duzu.
+      send_paranoid_instructions: "Zure kontua existitzen bada, minutu gutxi barru hura desblokeatzeko jarraibideak dituen mezu elektroniko bat jasoko duzu."
+      unlocked: Zure kontua behar bezala desblokeatu da. Hasi saioa jarraitzeko.
+  errors:
+    messages:
+      already_confirmed: "dagoeneko berretsita zegoen; saiatu saioa hasten"
+      confirmation_period_expired: "%{period} epearen barruan berretsi behar da; eskatu beste bat"
+      expired: "iraungi da; eskatu beste bat"
+      not_found: ez da aurkitu
+      not_locked: ez zegoen blokeatuta
+      not_saved:
+        one: 'Errore batek %{resource} gordetzea eragotzi du:'
+        other: "%{count} errorek %{resource} gordetzea eragotzi dute:"

@@ -1,3 +1,8 @@
+## 1.16.1
+
+- Added eu (Basque) translations.
+- Updated ar (Arabic) translations.
+
 ## 1.16.0
 
 - Added Ruby 4.0 to test matrix.

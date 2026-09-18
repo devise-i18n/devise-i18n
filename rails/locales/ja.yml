@@ -52,7 +52,7 @@ ja:
         instruction: '以下のリンクをクリックし、メールアドレスの確認手続を完了させてください。'
         subject: メールアドレス確認メール
       email_changed:
-        greeting: "こんにちは、%{recipient}様。"
+        greeting: "%{recipient}様"
         message: "メールアドレスの（%{email}）変更が完了したため、メールを送信しています。"
         message_unconfirmed: "メールアドレスが（%{email}）変更されたため、メールを送信しています。"
         subject: メール変更完了

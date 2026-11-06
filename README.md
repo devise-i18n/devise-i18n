@@ -85,6 +85,8 @@ Alternately, you can create a pull request on GitHub.
 
 In general, the tone of translations should be friendly, polite, and succinct. Certain languages (including Japanese and Korean) should use a more formal tone which is the standard for customer messages in those languages.
 
+AI-generated translations are accepted, but require a human speaker of the language to review the translations. When creating a pull request based on AI suggestions, state whether the changes were human-reviewed.
+
 ## Copyright
 
 Copyright (c) 2011 Christopher Dell. See LICENSE.txt for
